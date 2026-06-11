@@ -1,0 +1,1001 @@
+patient_id,age,gender,condition,drug_name,dosage_mg,treatment_duration_days,side_effects,improvement_score,rag_text
+P0001,56,Male,Infection,ciprofloxacin,50,9,nausea,8.5,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 56 | Side Effects: nausea | Improvement Score: 8.5
+P0002,69,Male,Hypertension,metoprolol,500,24,tiredness,8.7,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 69 | Side Effects: tiredness | Improvement Score: 8.7
+P0003,46,Female,Depression,bupropion,100,25,dry mouth,5.4,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 46 | Side Effects: dry mouth | Improvement Score: 5.4
+P0004,32,Male,Diabetes,glipizide,850,44,low blood sugar,6.4,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 32 | Side Effects: low blood sugar | Improvement Score: 6.4
+P0005,60,Male,Depression,bupropion,850,35,anxiety,5.3,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 60 | Side Effects: anxiety | Improvement Score: 5.3
+P0006,25,Female,Infection,ciprofloxacin,850,50,dizziness,6.7,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 25 | Side Effects: dizziness | Improvement Score: 6.7
+P0007,78,Male,Diabetes,glipizide,250,40,nausea,6.5,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 78 | Side Effects: nausea | Improvement Score: 6.5
+P0008,38,Male,Pain Relief,paracetamol,100,15,liver issues,8.2,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 38 | Side Effects: liver issues | Improvement Score: 8.2
+P0009,56,Male,Depression,escitalopram,850,56,nausea,9.0,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 56 | Side Effects: nausea | Improvement Score: 9.0
+P0010,75,Male,Diabetes,metformin,850,19,nausea,9.1,Drug: metformin | Condition: Diabetes | Dosage: 850 | Age Group: 75 | Side Effects: nausea | Improvement Score: 9.1
+P0011,36,Male,Depression,bupropion,50,23,headache,6.2,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 36 | Side Effects: headache | Improvement Score: 6.2
+P0012,40,Female,Diabetes,glipizide,500,11,nausea,6.7,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 40 | Side Effects: nausea | Improvement Score: 6.7
+P0013,28,Male,Hypertension,amlodipine,50,55,dizziness,4.5,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 28 | Side Effects: dizziness | Improvement Score: 4.5
+P0014,28,Male,Depression,bupropion,250,32,dry mouth,5.8,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 28 | Side Effects: dry mouth | Improvement Score: 5.8
+P0015,41,Male,Pain Relief,ibuprofen,850,55,nausea,8.4,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 41 | Side Effects: nausea | Improvement Score: 8.4
+P0016,70,Male,Pain Relief,tramadol,50,47,dizziness,9.4,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 70 | Side Effects: dizziness | Improvement Score: 9.4
+P0017,53,Male,Infection,azithromycin,50,9,abdominal pain,5.1,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 53 | Side Effects: abdominal pain | Improvement Score: 5.1
+P0018,57,Female,Diabetes,glipizide,100,9,low blood sugar,6.1,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 57 | Side Effects: low blood sugar | Improvement Score: 6.1
+P0019,41,Male,Depression,sertraline,500,34,dry mouth,7.0,Drug: sertraline | Condition: Depression | Dosage: 500 | Age Group: 41 | Side Effects: dry mouth | Improvement Score: 7.0
+P0020,20,Female,Infection,azithromycin,50,58,nausea,7.4,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 20 | Side Effects: nausea | Improvement Score: 7.4
+P0021,39,Female,Depression,bupropion,100,36,anxiety,5.8,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 39 | Side Effects: anxiety | Improvement Score: 5.8
+P0022,70,Male,Diabetes,insulin glargine,500,12,low sugar,7.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 70 | Side Effects: low sugar | Improvement Score: 7.6
+P0023,19,Male,Pain Relief,paracetamol,850,14,liver issues,6.3,Drug: paracetamol | Condition: Pain Relief | Dosage: 850 | Age Group: 19 | Side Effects: liver issues | Improvement Score: 6.3
+P0024,41,Male,Hypertension,losartan,100,42,back pain,7.0,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 41 | Side Effects: back pain | Improvement Score: 7.0
+P0025,61,Male,Pain Relief,tramadol,850,51,nausea,7.8,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 61 | Side Effects: nausea | Improvement Score: 7.8
+P0026,47,Female,Infection,ciprofloxacin,500,36,dizziness,7.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 47 | Side Effects: dizziness | Improvement Score: 7.0
+P0027,55,Male,Hypertension,metoprolol,500,52,tiredness,6.3,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 55 | Side Effects: tiredness | Improvement Score: 6.3
+P0028,19,Male,Infection,ciprofloxacin,100,32,nausea,6.8,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 19 | Side Effects: nausea | Improvement Score: 6.8
+P0029,77,Male,Diabetes,glipizide,50,21,skin rash,6.9,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 77 | Side Effects: skin rash | Improvement Score: 6.9
+P0030,38,Male,Hypertension,metoprolol,100,35,tiredness,6.4,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 38 | Side Effects: tiredness | Improvement Score: 6.4
+P0031,50,Male,Infection,ciprofloxacin,100,12,dizziness,6.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 50 | Side Effects: dizziness | Improvement Score: 6.6
+P0032,29,Male,Diabetes,insulin glargine,850,44,weight gain,9.4,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 29 | Side Effects: weight gain | Improvement Score: 9.4
+P0033,75,Female,Pain Relief,paracetamol,500,29,liver issues,7.8,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 75 | Side Effects: liver issues | Improvement Score: 7.8
+P0034,39,Female,Diabetes,glipizide,100,13,low blood sugar,6.6,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 39 | Side Effects: low blood sugar | Improvement Score: 6.6
+P0035,78,Male,Depression,sertraline,250,6,insomnia,8.0,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 78 | Side Effects: insomnia | Improvement Score: 8.0
+P0036,61,Male,Diabetes,glipizide,500,19,low blood sugar,6.5,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 61 | Side Effects: low blood sugar | Improvement Score: 6.5
+P0037,42,Male,Diabetes,glipizide,50,54,low blood sugar,8.8,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 42 | Side Effects: low blood sugar | Improvement Score: 8.8
+P0038,66,Female,Depression,bupropion,100,7,headache,7.6,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 66 | Side Effects: headache | Improvement Score: 7.6
+P0039,44,Male,Infection,ciprofloxacin,500,53,nausea,6.8,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 44 | Side Effects: nausea | Improvement Score: 6.8
+P0040,76,Female,Infection,amoxicillin,250,40,diarrhea,7.7,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 76 | Side Effects: diarrhea | Improvement Score: 7.7
+P0041,59,Male,Diabetes,insulin glargine,850,8,weight gain,4.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 59 | Side Effects: weight gain | Improvement Score: 4.6
+P0042,45,Male,Depression,escitalopram,500,18,sweating,5.3,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 45 | Side Effects: sweating | Improvement Score: 5.3
+P0043,77,Male,Depression,sertraline,850,45,insomnia,5.2,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 77 | Side Effects: insomnia | Improvement Score: 5.2
+P0044,33,Male,Pain Relief,tramadol,250,45,constipation,7.2,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 33 | Side Effects: constipation | Improvement Score: 7.2
+P0045,32,Female,Infection,amoxicillin,850,29,allergy,9.6,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 32 | Side Effects: allergy | Improvement Score: 9.6
+P0046,79,Female,Hypertension,amlodipine,50,59,fatigue,10.0,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 79 | Side Effects: fatigue | Improvement Score: 10.0
+P0047,79,Male,Infection,amoxicillin,500,54,rash,8.0,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 79 | Side Effects: rash | Improvement Score: 8.0
+P0048,64,Male,Infection,azithromycin,500,14,headache,7.8,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 64 | Side Effects: headache | Improvement Score: 7.8
+P0049,79,Female,Pain Relief,tramadol,850,25,constipation,4.3,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 79 | Side Effects: constipation | Improvement Score: 4.3
+P0050,68,Female,Hypertension,amlodipine,100,40,swelling,6.2,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 68 | Side Effects: swelling | Improvement Score: 6.2
+P0051,61,Female,Pain Relief,paracetamol,850,16,liver issues,5.8,Drug: paracetamol | Condition: Pain Relief | Dosage: 850 | Age Group: 61 | Side Effects: liver issues | Improvement Score: 5.8
+P0052,72,Female,Hypertension,amlodipine,50,31,dizziness,6.1,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 72 | Side Effects: dizziness | Improvement Score: 6.1
+P0053,69,Male,Diabetes,glipizide,50,44,low blood sugar,6.7,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 69 | Side Effects: low blood sugar | Improvement Score: 6.7
+P0054,74,Female,Hypertension,metoprolol,850,6,dizziness,6.3,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 74 | Side Effects: dizziness | Improvement Score: 6.3
+P0055,20,Male,Pain Relief,ibuprofen,50,58,nausea,4.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 20 | Side Effects: nausea | Improvement Score: 4.0
+P0056,54,Female,Infection,azithromycin,250,17,abdominal pain,8.1,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 54 | Side Effects: abdominal pain | Improvement Score: 8.1
+P0057,68,Female,Hypertension,metoprolol,100,57,dizziness,5.4,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 68 | Side Effects: dizziness | Improvement Score: 5.4
+P0058,24,Female,Hypertension,losartan,100,36,cough,7.4,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 24 | Side Effects: cough | Improvement Score: 7.4
+P0059,38,Female,Depression,bupropion,850,35,dry mouth,10.0,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 38 | Side Effects: dry mouth | Improvement Score: 10.0
+P0060,26,Female,Infection,ciprofloxacin,250,20,nausea,5.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 26 | Side Effects: nausea | Improvement Score: 5.6
+P0061,56,Male,Diabetes,insulin glargine,500,36,weight gain,3.2,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 56 | Side Effects: weight gain | Improvement Score: 3.2
+P0062,35,Male,Pain Relief,tramadol,500,36,dizziness,6.6,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 35 | Side Effects: dizziness | Improvement Score: 6.6
+P0063,21,Female,Diabetes,glipizide,250,38,low blood sugar,8.7,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 21 | Side Effects: low blood sugar | Improvement Score: 8.7
+P0064,42,Female,Infection,amoxicillin,500,15,rash,9.9,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 42 | Side Effects: rash | Improvement Score: 9.9
+P0065,77,Male,Hypertension,amlodipine,500,14,dizziness,5.2,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 77 | Side Effects: dizziness | Improvement Score: 5.2
+P0066,31,Female,Hypertension,amlodipine,850,19,fatigue,7.7,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 31 | Side Effects: fatigue | Improvement Score: 7.7
+P0067,67,Female,Infection,ciprofloxacin,100,21,joint pain,6.3,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 67 | Side Effects: joint pain | Improvement Score: 6.3
+P0068,75,Male,Hypertension,metoprolol,850,44,tiredness,6.8,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 75 | Side Effects: tiredness | Improvement Score: 6.8
+P0069,26,Female,Hypertension,amlodipine,50,22,swelling,10.0,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 26 | Side Effects: swelling | Improvement Score: 10.0
+P0070,43,Female,Hypertension,amlodipine,100,59,fatigue,4.7,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 43 | Side Effects: fatigue | Improvement Score: 4.7
+P0071,70,Male,Pain Relief,tramadol,50,13,dizziness,7.4,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 70 | Side Effects: dizziness | Improvement Score: 7.4
+P0072,19,Male,Pain Relief,paracetamol,250,29,fatigue,7.7,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 19 | Side Effects: fatigue | Improvement Score: 7.7
+P0073,37,Male,Depression,escitalopram,250,44,sweating,8.6,Drug: escitalopram | Condition: Depression | Dosage: 250 | Age Group: 37 | Side Effects: sweating | Improvement Score: 8.6
+P0074,45,Female,Diabetes,metformin,500,18,nausea,7.1,Drug: metformin | Condition: Diabetes | Dosage: 500 | Age Group: 45 | Side Effects: nausea | Improvement Score: 7.1
+P0075,64,Male,Infection,ciprofloxacin,850,29,joint pain,7.5,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 64 | Side Effects: joint pain | Improvement Score: 7.5
+P0076,77,Male,Infection,ciprofloxacin,50,54,joint pain,6.4,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 77 | Side Effects: joint pain | Improvement Score: 6.4
+P0077,24,Male,Infection,amoxicillin,100,26,diarrhea,7.4,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 24 | Side Effects: diarrhea | Improvement Score: 7.4
+P0078,61,Male,Depression,bupropion,850,56,headache,6.5,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 61 | Side Effects: headache | Improvement Score: 6.5
+P0079,78,Male,Pain Relief,paracetamol,50,34,rash,7.9,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 78 | Side Effects: rash | Improvement Score: 7.9
+P0080,25,Male,Depression,bupropion,50,24,anxiety,6.4,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 25 | Side Effects: anxiety | Improvement Score: 6.4
+P0081,64,Female,Infection,azithromycin,850,25,nausea,7.6,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 64 | Side Effects: nausea | Improvement Score: 7.6
+P0082,52,Female,Diabetes,metformin,500,48,stomach upset,7.0,Drug: metformin | Condition: Diabetes | Dosage: 500 | Age Group: 52 | Side Effects: stomach upset | Improvement Score: 7.0
+P0083,31,Male,Hypertension,losartan,850,36,back pain,8.7,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 31 | Side Effects: back pain | Improvement Score: 8.7
+P0084,34,Male,Pain Relief,tramadol,500,55,constipation,6.9,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 34 | Side Effects: constipation | Improvement Score: 6.9
+P0085,53,Male,Pain Relief,tramadol,850,50,constipation,4.3,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 53 | Side Effects: constipation | Improvement Score: 4.3
+P0086,67,Female,Depression,bupropion,50,53,anxiety,8.9,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 67 | Side Effects: anxiety | Improvement Score: 8.9
+P0087,57,Female,Pain Relief,tramadol,100,25,nausea,5.6,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 57 | Side Effects: nausea | Improvement Score: 5.6
+P0088,21,Female,Infection,ciprofloxacin,850,39,joint pain,6.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 21 | Side Effects: joint pain | Improvement Score: 6.0
+P0089,19,Female,Infection,ciprofloxacin,500,36,nausea,6.1,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 19 | Side Effects: nausea | Improvement Score: 6.1
+P0090,79,Female,Depression,sertraline,850,34,dry mouth,9.1,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 79 | Side Effects: dry mouth | Improvement Score: 9.1
+P0091,23,Female,Infection,ciprofloxacin,50,59,nausea,3.8,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 23 | Side Effects: nausea | Improvement Score: 3.8
+P0092,71,Female,Diabetes,insulin glargine,850,43,weight gain,10.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 71 | Side Effects: weight gain | Improvement Score: 10.0
+P0093,59,Female,Depression,sertraline,100,53,drowsiness,8.6,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 59 | Side Effects: drowsiness | Improvement Score: 8.6
+P0094,21,Female,Diabetes,insulin glargine,100,16,injection site pain,7.3,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 21 | Side Effects: injection site pain | Improvement Score: 7.3
+P0095,71,Male,Hypertension,amlodipine,50,45,fatigue,6.9,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 71 | Side Effects: fatigue | Improvement Score: 6.9
+P0096,46,Male,Diabetes,metformin,250,51,diarrhea,7.4,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 46 | Side Effects: diarrhea | Improvement Score: 7.4
+P0097,35,Male,Hypertension,amlodipine,250,22,fatigue,7.8,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 35 | Side Effects: fatigue | Improvement Score: 7.8
+P0098,43,Male,Hypertension,losartan,250,25,headache,8.0,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 43 | Side Effects: headache | Improvement Score: 8.0
+P0099,61,Female,Diabetes,glipizide,500,17,skin rash,7.8,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 61 | Side Effects: skin rash | Improvement Score: 7.8
+P0100,51,Female,Depression,bupropion,850,25,anxiety,7.1,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 51 | Side Effects: anxiety | Improvement Score: 7.1
+P0101,27,Male,Infection,amoxicillin,250,12,allergy,6.7,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 27 | Side Effects: allergy | Improvement Score: 6.7
+P0102,79,Female,Infection,amoxicillin,850,50,diarrhea,6.8,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 79 | Side Effects: diarrhea | Improvement Score: 6.8
+P0103,53,Male,Hypertension,amlodipine,500,44,fatigue,6.7,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 53 | Side Effects: fatigue | Improvement Score: 6.7
+P0104,31,Female,Hypertension,losartan,50,50,cough,8.7,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 31 | Side Effects: cough | Improvement Score: 8.7
+P0105,48,Male,Depression,sertraline,850,11,dry mouth,7.9,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 48 | Side Effects: dry mouth | Improvement Score: 7.9
+P0106,65,Female,Pain Relief,tramadol,250,27,nausea,2.6,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 65 | Side Effects: nausea | Improvement Score: 2.6
+P0107,32,Female,Diabetes,insulin glargine,100,48,low sugar,8.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 32 | Side Effects: low sugar | Improvement Score: 8.0
+P0108,25,Male,Hypertension,losartan,100,36,back pain,7.3,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 25 | Side Effects: back pain | Improvement Score: 7.3
+P0109,31,Female,Infection,amoxicillin,850,15,rash,7.0,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 31 | Side Effects: rash | Improvement Score: 7.0
+P0110,40,Male,Depression,bupropion,100,26,anxiety,6.4,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 40 | Side Effects: anxiety | Improvement Score: 6.4
+P0111,77,Male,Diabetes,insulin glargine,500,26,injection site pain,8.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 77 | Side Effects: injection site pain | Improvement Score: 8.7
+P0112,74,Male,Depression,bupropion,100,47,headache,8.4,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 74 | Side Effects: headache | Improvement Score: 8.4
+P0113,79,Male,Diabetes,glipizide,850,29,skin rash,5.8,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 79 | Side Effects: skin rash | Improvement Score: 5.8
+P0114,57,Female,Diabetes,metformin,250,26,stomach upset,7.6,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 57 | Side Effects: stomach upset | Improvement Score: 7.6
+P0115,38,Female,Hypertension,amlodipine,50,32,dizziness,5.5,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 38 | Side Effects: dizziness | Improvement Score: 5.5
+P0116,33,Female,Depression,escitalopram,850,33,sleep issues,4.9,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 33 | Side Effects: sleep issues | Improvement Score: 4.9
+P0117,62,Male,Depression,escitalopram,100,17,sleep issues,6.1,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 62 | Side Effects: sleep issues | Improvement Score: 6.1
+P0118,35,Female,Infection,azithromycin,50,22,headache,8.3,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 35 | Side Effects: headache | Improvement Score: 8.3
+P0119,64,Male,Infection,azithromycin,50,6,headache,8.4,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 64 | Side Effects: headache | Improvement Score: 8.4
+P0120,70,Female,Hypertension,amlodipine,500,33,fatigue,7.8,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 70 | Side Effects: fatigue | Improvement Score: 7.8
+P0121,41,Female,Hypertension,losartan,100,25,back pain,8.1,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 41 | Side Effects: back pain | Improvement Score: 8.1
+P0122,43,Female,Pain Relief,tramadol,50,19,nausea,7.8,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 43 | Side Effects: nausea | Improvement Score: 7.8
+P0123,42,Male,Infection,azithromycin,50,56,headache,6.0,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 42 | Side Effects: headache | Improvement Score: 6.0
+P0124,77,Female,Diabetes,insulin glargine,250,31,low sugar,7.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 77 | Side Effects: low sugar | Improvement Score: 7.6
+P0125,77,Female,Depression,sertraline,50,54,drowsiness,8.2,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 77 | Side Effects: drowsiness | Improvement Score: 8.2
+P0126,77,Male,Hypertension,losartan,500,35,cough,8.1,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 77 | Side Effects: cough | Improvement Score: 8.1
+P0127,62,Female,Depression,escitalopram,500,19,sleep issues,8.8,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 62 | Side Effects: sleep issues | Improvement Score: 8.8
+P0128,58,Male,Depression,escitalopram,850,55,sleep issues,8.1,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 58 | Side Effects: sleep issues | Improvement Score: 8.1
+P0129,46,Female,Pain Relief,tramadol,500,27,dizziness,7.5,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 46 | Side Effects: dizziness | Improvement Score: 7.5
+P0130,32,Male,Infection,amoxicillin,250,28,diarrhea,8.6,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 32 | Side Effects: diarrhea | Improvement Score: 8.6
+P0131,62,Male,Hypertension,metoprolol,500,48,dizziness,7.0,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 62 | Side Effects: dizziness | Improvement Score: 7.0
+P0132,18,Female,Depression,sertraline,50,17,insomnia,5.7,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 18 | Side Effects: insomnia | Improvement Score: 5.7
+P0133,42,Male,Hypertension,metoprolol,250,26,dizziness,6.8,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 42 | Side Effects: dizziness | Improvement Score: 6.8
+P0134,24,Male,Diabetes,glipizide,850,47,nausea,5.9,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 24 | Side Effects: nausea | Improvement Score: 5.9
+P0135,26,Male,Pain Relief,tramadol,500,41,nausea,6.0,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 26 | Side Effects: nausea | Improvement Score: 6.0
+P0136,41,Male,Diabetes,insulin glargine,50,37,weight gain,6.8,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 41 | Side Effects: weight gain | Improvement Score: 6.8
+P0137,18,Male,Hypertension,amlodipine,100,7,swelling,5.8,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 18 | Side Effects: swelling | Improvement Score: 5.8
+P0138,61,Male,Hypertension,amlodipine,500,58,dizziness,6.5,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 61 | Side Effects: dizziness | Improvement Score: 6.5
+P0139,25,Female,Infection,azithromycin,100,23,nausea,4.2,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 25 | Side Effects: nausea | Improvement Score: 4.2
+P0140,41,Male,Depression,sertraline,100,27,insomnia,7.3,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 41 | Side Effects: insomnia | Improvement Score: 7.3
+P0141,28,Male,Depression,escitalopram,100,33,sweating,7.0,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 28 | Side Effects: sweating | Improvement Score: 7.0
+P0142,68,Female,Diabetes,insulin glargine,500,34,weight gain,5.8,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 68 | Side Effects: weight gain | Improvement Score: 5.8
+P0143,34,Female,Pain Relief,paracetamol,500,43,fatigue,8.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 34 | Side Effects: fatigue | Improvement Score: 8.0
+P0144,25,Female,Depression,sertraline,100,48,drowsiness,8.4,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 25 | Side Effects: drowsiness | Improvement Score: 8.4
+P0145,52,Female,Infection,azithromycin,100,51,nausea,4.6,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 52 | Side Effects: nausea | Improvement Score: 4.6
+P0146,52,Female,Diabetes,metformin,250,29,stomach upset,5.9,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 52 | Side Effects: stomach upset | Improvement Score: 5.9
+P0147,50,Female,Diabetes,glipizide,850,41,low blood sugar,5.8,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 50 | Side Effects: low blood sugar | Improvement Score: 5.8
+P0148,76,Female,Infection,ciprofloxacin,250,51,joint pain,5.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 76 | Side Effects: joint pain | Improvement Score: 5.6
+P0149,22,Male,Pain Relief,tramadol,250,12,constipation,8.2,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 22 | Side Effects: constipation | Improvement Score: 8.2
+P0150,59,Male,Infection,ciprofloxacin,850,46,dizziness,6.7,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 59 | Side Effects: dizziness | Improvement Score: 6.7
+P0151,56,Female,Pain Relief,tramadol,500,20,constipation,6.6,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 56 | Side Effects: constipation | Improvement Score: 6.6
+P0152,75,Male,Infection,amoxicillin,100,12,diarrhea,4.0,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 75 | Side Effects: diarrhea | Improvement Score: 4.0
+P0153,58,Male,Infection,azithromycin,500,5,nausea,8.0,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 58 | Side Effects: nausea | Improvement Score: 8.0
+P0154,45,Male,Hypertension,amlodipine,250,48,swelling,5.1,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 45 | Side Effects: swelling | Improvement Score: 5.1
+P0155,24,Female,Diabetes,glipizide,850,9,low blood sugar,7.1,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 24 | Side Effects: low blood sugar | Improvement Score: 7.1
+P0156,26,Female,Infection,ciprofloxacin,50,7,nausea,7.4,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 26 | Side Effects: nausea | Improvement Score: 7.4
+P0157,25,Male,Infection,amoxicillin,50,5,rash,9.0,Drug: amoxicillin | Condition: Infection | Dosage: 50 | Age Group: 25 | Side Effects: rash | Improvement Score: 9.0
+P0158,29,Female,Depression,sertraline,850,8,insomnia,5.0,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 29 | Side Effects: insomnia | Improvement Score: 5.0
+P0159,51,Male,Diabetes,insulin glargine,100,44,weight gain,2.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 51 | Side Effects: weight gain | Improvement Score: 2.5
+P0160,50,Male,Depression,bupropion,250,39,headache,7.3,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 50 | Side Effects: headache | Improvement Score: 7.3
+P0161,65,Male,Diabetes,glipizide,850,36,low blood sugar,9.7,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 65 | Side Effects: low blood sugar | Improvement Score: 9.7
+P0162,72,Male,Depression,sertraline,250,46,dry mouth,8.9,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 72 | Side Effects: dry mouth | Improvement Score: 8.9
+P0163,40,Female,Infection,amoxicillin,500,38,rash,7.3,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 40 | Side Effects: rash | Improvement Score: 7.3
+P0164,79,Female,Infection,azithromycin,250,47,headache,6.3,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 79 | Side Effects: headache | Improvement Score: 6.3
+P0165,41,Female,Hypertension,metoprolol,500,29,dizziness,8.2,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 41 | Side Effects: dizziness | Improvement Score: 8.2
+P0166,54,Male,Depression,sertraline,100,14,insomnia,5.5,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 54 | Side Effects: insomnia | Improvement Score: 5.5
+P0167,52,Female,Pain Relief,ibuprofen,500,25,stomach pain,7.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 52 | Side Effects: stomach pain | Improvement Score: 7.7
+P0168,61,Male,Hypertension,metoprolol,500,50,dizziness,7.8,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 61 | Side Effects: dizziness | Improvement Score: 7.8
+P0169,57,Female,Depression,sertraline,250,43,drowsiness,8.6,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 57 | Side Effects: drowsiness | Improvement Score: 8.6
+P0170,39,Male,Depression,sertraline,850,31,insomnia,10.0,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 39 | Side Effects: insomnia | Improvement Score: 10.0
+P0171,44,Male,Hypertension,losartan,250,31,cough,7.6,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 44 | Side Effects: cough | Improvement Score: 7.6
+P0172,52,Male,Infection,ciprofloxacin,500,6,joint pain,6.2,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 52 | Side Effects: joint pain | Improvement Score: 6.2
+P0173,18,Female,Depression,bupropion,100,45,dry mouth,7.0,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 18 | Side Effects: dry mouth | Improvement Score: 7.0
+P0174,52,Female,Infection,amoxicillin,850,52,diarrhea,4.3,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 52 | Side Effects: diarrhea | Improvement Score: 4.3
+P0175,54,Female,Hypertension,losartan,250,17,headache,6.0,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 54 | Side Effects: headache | Improvement Score: 6.0
+P0176,64,Female,Infection,azithromycin,250,13,headache,6.4,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 64 | Side Effects: headache | Improvement Score: 6.4
+P0177,31,Male,Diabetes,glipizide,850,56,skin rash,6.2,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 31 | Side Effects: skin rash | Improvement Score: 6.2
+P0178,20,Female,Pain Relief,paracetamol,50,40,liver issues,7.2,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 20 | Side Effects: liver issues | Improvement Score: 7.2
+P0179,18,Female,Depression,escitalopram,100,26,sweating,5.8,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 18 | Side Effects: sweating | Improvement Score: 5.8
+P0180,22,Male,Pain Relief,ibuprofen,100,46,stomach pain,8.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 22 | Side Effects: stomach pain | Improvement Score: 8.7
+P0181,43,Male,Infection,amoxicillin,100,30,allergy,7.0,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 43 | Side Effects: allergy | Improvement Score: 7.0
+P0182,72,Male,Depression,bupropion,50,58,anxiety,7.0,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 72 | Side Effects: anxiety | Improvement Score: 7.0
+P0183,31,Female,Infection,azithromycin,500,16,abdominal pain,6.5,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 31 | Side Effects: abdominal pain | Improvement Score: 6.5
+P0184,56,Male,Diabetes,metformin,250,21,nausea,7.2,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 56 | Side Effects: nausea | Improvement Score: 7.2
+P0185,44,Male,Hypertension,metoprolol,50,18,dizziness,8.2,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 44 | Side Effects: dizziness | Improvement Score: 8.2
+P0186,26,Male,Depression,sertraline,100,18,drowsiness,5.7,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 26 | Side Effects: drowsiness | Improvement Score: 5.7
+P0187,32,Female,Diabetes,insulin glargine,250,38,weight gain,6.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 32 | Side Effects: weight gain | Improvement Score: 6.0
+P0188,32,Male,Diabetes,insulin glargine,250,57,weight gain,6.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 32 | Side Effects: weight gain | Improvement Score: 6.5
+P0189,43,Female,Depression,bupropion,100,24,dry mouth,5.0,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 43 | Side Effects: dry mouth | Improvement Score: 5.0
+P0190,59,Female,Infection,azithromycin,250,15,headache,5.8,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 59 | Side Effects: headache | Improvement Score: 5.8
+P0191,77,Male,Diabetes,metformin,250,20,stomach upset,6.3,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 77 | Side Effects: stomach upset | Improvement Score: 6.3
+P0192,30,Male,Pain Relief,tramadol,500,55,constipation,8.3,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 30 | Side Effects: constipation | Improvement Score: 8.3
+P0193,68,Female,Diabetes,insulin glargine,50,35,injection site pain,7.4,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 68 | Side Effects: injection site pain | Improvement Score: 7.4
+P0194,49,Male,Infection,amoxicillin,100,59,diarrhea,7.3,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 49 | Side Effects: diarrhea | Improvement Score: 7.3
+P0195,56,Male,Infection,azithromycin,500,10,abdominal pain,8.3,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 56 | Side Effects: abdominal pain | Improvement Score: 8.3
+P0196,66,Female,Pain Relief,tramadol,100,23,nausea,6.8,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 66 | Side Effects: nausea | Improvement Score: 6.8
+P0197,69,Female,Diabetes,glipizide,250,41,skin rash,7.6,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 69 | Side Effects: skin rash | Improvement Score: 7.6
+P0198,78,Male,Infection,azithromycin,100,8,nausea,6.8,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 78 | Side Effects: nausea | Improvement Score: 6.8
+P0199,49,Female,Depression,escitalopram,250,51,nausea,7.4,Drug: escitalopram | Condition: Depression | Dosage: 250 | Age Group: 49 | Side Effects: nausea | Improvement Score: 7.4
+P0200,21,Male,Hypertension,amlodipine,50,8,dizziness,6.1,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 21 | Side Effects: dizziness | Improvement Score: 6.1
+P0201,47,Male,Hypertension,losartan,500,24,headache,3.3,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 47 | Side Effects: headache | Improvement Score: 3.3
+P0202,54,Male,Hypertension,metoprolol,100,14,dizziness,6.8,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 54 | Side Effects: dizziness | Improvement Score: 6.8
+P0203,40,Female,Diabetes,insulin glargine,850,28,injection site pain,9.1,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 40 | Side Effects: injection site pain | Improvement Score: 9.1
+P0204,56,Male,Pain Relief,ibuprofen,250,58,stomach pain,8.4,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 56 | Side Effects: stomach pain | Improvement Score: 8.4
+P0205,62,Male,Infection,amoxicillin,500,39,allergy,8.4,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 62 | Side Effects: allergy | Improvement Score: 8.4
+P0206,32,Male,Depression,escitalopram,850,30,sweating,8.9,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 32 | Side Effects: sweating | Improvement Score: 8.9
+P0207,60,Female,Depression,bupropion,500,41,anxiety,7.1,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 60 | Side Effects: anxiety | Improvement Score: 7.1
+P0208,46,Female,Diabetes,glipizide,50,42,low blood sugar,7.3,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 46 | Side Effects: low blood sugar | Improvement Score: 7.3
+P0209,53,Female,Hypertension,metoprolol,850,25,dizziness,6.1,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 53 | Side Effects: dizziness | Improvement Score: 6.1
+P0210,30,Female,Diabetes,insulin glargine,850,58,injection site pain,6.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 30 | Side Effects: injection site pain | Improvement Score: 6.5
+P0211,49,Female,Pain Relief,tramadol,50,44,constipation,7.9,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 49 | Side Effects: constipation | Improvement Score: 7.9
+P0212,24,Male,Pain Relief,tramadol,100,43,nausea,8.8,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 24 | Side Effects: nausea | Improvement Score: 8.8
+P0213,76,Female,Infection,amoxicillin,50,25,diarrhea,6.8,Drug: amoxicillin | Condition: Infection | Dosage: 50 | Age Group: 76 | Side Effects: diarrhea | Improvement Score: 6.8
+P0214,68,Female,Infection,azithromycin,500,14,nausea,6.3,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 68 | Side Effects: nausea | Improvement Score: 6.3
+P0215,39,Female,Pain Relief,ibuprofen,100,42,nausea,7.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 39 | Side Effects: nausea | Improvement Score: 7.0
+P0216,45,Male,Pain Relief,tramadol,50,50,dizziness,7.9,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 45 | Side Effects: dizziness | Improvement Score: 7.9
+P0217,19,Female,Pain Relief,tramadol,250,8,constipation,4.8,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 19 | Side Effects: constipation | Improvement Score: 4.8
+P0218,59,Female,Diabetes,metformin,50,49,nausea,3.6,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 59 | Side Effects: nausea | Improvement Score: 3.6
+P0219,62,Male,Pain Relief,tramadol,500,24,dizziness,6.2,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 62 | Side Effects: dizziness | Improvement Score: 6.2
+P0220,79,Female,Depression,escitalopram,500,21,nausea,5.2,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 79 | Side Effects: nausea | Improvement Score: 5.2
+P0221,74,Male,Hypertension,metoprolol,100,59,tiredness,6.2,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 74 | Side Effects: tiredness | Improvement Score: 6.2
+P0222,70,Male,Pain Relief,tramadol,50,11,constipation,6.8,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 70 | Side Effects: constipation | Improvement Score: 6.8
+P0223,23,Male,Hypertension,amlodipine,250,8,swelling,6.3,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 23 | Side Effects: swelling | Improvement Score: 6.3
+P0224,45,Male,Diabetes,insulin glargine,100,33,low sugar,9.2,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 45 | Side Effects: low sugar | Improvement Score: 9.2
+P0225,45,Male,Hypertension,losartan,850,18,cough,7.5,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 45 | Side Effects: cough | Improvement Score: 7.5
+P0226,61,Female,Diabetes,metformin,250,7,stomach upset,7.5,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 61 | Side Effects: stomach upset | Improvement Score: 7.5
+P0227,61,Male,Depression,escitalopram,100,28,nausea,7.9,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 61 | Side Effects: nausea | Improvement Score: 7.9
+P0228,37,Male,Diabetes,metformin,250,41,diarrhea,5.3,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 37 | Side Effects: diarrhea | Improvement Score: 5.3
+P0229,47,Female,Diabetes,insulin glargine,500,20,injection site pain,8.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 47 | Side Effects: injection site pain | Improvement Score: 8.6
+P0230,79,Male,Infection,ciprofloxacin,100,59,nausea,6.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 79 | Side Effects: nausea | Improvement Score: 6.9
+P0231,28,Female,Pain Relief,paracetamol,500,56,liver issues,8.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 28 | Side Effects: liver issues | Improvement Score: 8.0
+P0232,75,Female,Pain Relief,tramadol,500,8,nausea,5.4,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 75 | Side Effects: nausea | Improvement Score: 5.4
+P0233,72,Female,Depression,bupropion,250,28,anxiety,4.7,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 72 | Side Effects: anxiety | Improvement Score: 4.7
+P0234,45,Male,Depression,escitalopram,250,38,sleep issues,8.2,Drug: escitalopram | Condition: Depression | Dosage: 250 | Age Group: 45 | Side Effects: sleep issues | Improvement Score: 8.2
+P0235,42,Male,Pain Relief,paracetamol,500,34,fatigue,7.6,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 42 | Side Effects: fatigue | Improvement Score: 7.6
+P0236,56,Male,Infection,azithromycin,50,22,headache,5.6,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 56 | Side Effects: headache | Improvement Score: 5.6
+P0237,79,Female,Pain Relief,ibuprofen,50,23,stomach pain,5.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 79 | Side Effects: stomach pain | Improvement Score: 5.7
+P0238,50,Male,Infection,azithromycin,850,35,nausea,8.7,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 50 | Side Effects: nausea | Improvement Score: 8.7
+P0239,18,Male,Depression,sertraline,50,23,drowsiness,5.2,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 18 | Side Effects: drowsiness | Improvement Score: 5.2
+P0240,74,Male,Hypertension,losartan,100,53,back pain,9.5,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 74 | Side Effects: back pain | Improvement Score: 9.5
+P0241,44,Female,Depression,bupropion,50,50,headache,5.6,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 44 | Side Effects: headache | Improvement Score: 5.6
+P0242,79,Female,Depression,bupropion,850,23,anxiety,8.0,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 79 | Side Effects: anxiety | Improvement Score: 8.0
+P0243,74,Male,Diabetes,metformin,100,26,diarrhea,6.5,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 74 | Side Effects: diarrhea | Improvement Score: 6.5
+P0244,69,Male,Diabetes,insulin glargine,850,28,low sugar,7.9,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 69 | Side Effects: low sugar | Improvement Score: 7.9
+P0245,30,Male,Diabetes,glipizide,50,49,low blood sugar,6.2,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 30 | Side Effects: low blood sugar | Improvement Score: 6.2
+P0246,58,Male,Diabetes,insulin glargine,250,16,injection site pain,6.8,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 58 | Side Effects: injection site pain | Improvement Score: 6.8
+P0247,20,Female,Infection,azithromycin,50,34,abdominal pain,7.1,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 20 | Side Effects: abdominal pain | Improvement Score: 7.1
+P0248,56,Female,Pain Relief,tramadol,50,42,nausea,5.5,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 56 | Side Effects: nausea | Improvement Score: 5.5
+P0249,23,Female,Hypertension,metoprolol,500,57,slow heartbeat,8.1,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 23 | Side Effects: slow heartbeat | Improvement Score: 8.1
+P0250,25,Female,Depression,sertraline,50,35,insomnia,6.2,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 25 | Side Effects: insomnia | Improvement Score: 6.2
+P0251,44,Male,Infection,ciprofloxacin,850,40,dizziness,6.7,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 44 | Side Effects: dizziness | Improvement Score: 6.7
+P0252,26,Male,Hypertension,amlodipine,50,23,fatigue,5.5,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 26 | Side Effects: fatigue | Improvement Score: 5.5
+P0253,79,Male,Infection,azithromycin,50,52,nausea,3.2,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 79 | Side Effects: nausea | Improvement Score: 3.2
+P0254,54,Female,Infection,ciprofloxacin,250,49,joint pain,6.7,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 54 | Side Effects: joint pain | Improvement Score: 6.7
+P0255,50,Male,Depression,sertraline,850,40,dry mouth,10.0,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 50 | Side Effects: dry mouth | Improvement Score: 10.0
+P0256,68,Female,Pain Relief,ibuprofen,100,34,stomach pain,8.2,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 68 | Side Effects: stomach pain | Improvement Score: 8.2
+P0257,59,Female,Diabetes,glipizide,850,59,skin rash,7.0,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 59 | Side Effects: skin rash | Improvement Score: 7.0
+P0258,61,Male,Pain Relief,tramadol,500,53,constipation,6.6,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 61 | Side Effects: constipation | Improvement Score: 6.6
+P0259,41,Male,Depression,sertraline,50,59,dry mouth,7.0,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 41 | Side Effects: dry mouth | Improvement Score: 7.0
+P0260,32,Male,Depression,escitalopram,50,37,sleep issues,7.8,Drug: escitalopram | Condition: Depression | Dosage: 50 | Age Group: 32 | Side Effects: sleep issues | Improvement Score: 7.8
+P0261,76,Female,Depression,bupropion,500,22,dry mouth,5.2,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 76 | Side Effects: dry mouth | Improvement Score: 5.2
+P0262,71,Male,Hypertension,amlodipine,100,56,dizziness,8.7,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 71 | Side Effects: dizziness | Improvement Score: 8.7
+P0263,49,Female,Pain Relief,ibuprofen,500,53,nausea,8.1,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 49 | Side Effects: nausea | Improvement Score: 8.1
+P0264,49,Male,Pain Relief,tramadol,250,32,nausea,8.1,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 49 | Side Effects: nausea | Improvement Score: 8.1
+P0265,41,Female,Infection,azithromycin,850,51,headache,7.7,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 41 | Side Effects: headache | Improvement Score: 7.7
+P0266,58,Female,Infection,ciprofloxacin,500,15,nausea,7.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 58 | Side Effects: nausea | Improvement Score: 7.0
+P0267,69,Male,Infection,ciprofloxacin,500,58,joint pain,8.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 69 | Side Effects: joint pain | Improvement Score: 8.0
+P0268,66,Female,Depression,escitalopram,50,49,nausea,7.9,Drug: escitalopram | Condition: Depression | Dosage: 50 | Age Group: 66 | Side Effects: nausea | Improvement Score: 7.9
+P0269,79,Female,Pain Relief,tramadol,500,37,constipation,6.5,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 79 | Side Effects: constipation | Improvement Score: 6.5
+P0270,66,Male,Depression,sertraline,250,21,insomnia,6.1,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 66 | Side Effects: insomnia | Improvement Score: 6.1
+P0271,75,Female,Hypertension,losartan,500,10,back pain,7.2,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 75 | Side Effects: back pain | Improvement Score: 7.2
+P0272,69,Male,Infection,ciprofloxacin,100,8,dizziness,9.3,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 69 | Side Effects: dizziness | Improvement Score: 9.3
+P0273,29,Female,Depression,bupropion,500,24,anxiety,5.1,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 29 | Side Effects: anxiety | Improvement Score: 5.1
+P0274,79,Male,Depression,escitalopram,250,52,sweating,4.8,Drug: escitalopram | Condition: Depression | Dosage: 250 | Age Group: 79 | Side Effects: sweating | Improvement Score: 4.8
+P0275,56,Male,Hypertension,losartan,500,51,headache,7.2,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 56 | Side Effects: headache | Improvement Score: 7.2
+P0276,19,Female,Diabetes,insulin glargine,100,31,weight gain,7.1,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 19 | Side Effects: weight gain | Improvement Score: 7.1
+P0277,20,Female,Pain Relief,paracetamol,500,19,rash,7.3,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 20 | Side Effects: rash | Improvement Score: 7.3
+P0278,66,Female,Diabetes,glipizide,250,10,skin rash,7.4,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 66 | Side Effects: skin rash | Improvement Score: 7.4
+P0279,54,Female,Infection,azithromycin,100,51,headache,6.7,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 54 | Side Effects: headache | Improvement Score: 6.7
+P0280,66,Female,Depression,bupropion,850,18,anxiety,9.2,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 66 | Side Effects: anxiety | Improvement Score: 9.2
+P0281,73,Male,Hypertension,losartan,500,15,cough,4.6,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 73 | Side Effects: cough | Improvement Score: 4.6
+P0282,34,Female,Hypertension,losartan,250,43,headache,5.8,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 34 | Side Effects: headache | Improvement Score: 5.8
+P0283,76,Male,Pain Relief,tramadol,850,13,nausea,6.8,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 76 | Side Effects: nausea | Improvement Score: 6.8
+P0284,66,Male,Diabetes,metformin,50,30,stomach upset,4.5,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 66 | Side Effects: stomach upset | Improvement Score: 4.5
+P0285,19,Female,Pain Relief,ibuprofen,50,20,heartburn,6.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 19 | Side Effects: heartburn | Improvement Score: 6.7
+P0286,19,Male,Depression,escitalopram,50,9,sweating,9.5,Drug: escitalopram | Condition: Depression | Dosage: 50 | Age Group: 19 | Side Effects: sweating | Improvement Score: 9.5
+P0287,45,Male,Pain Relief,ibuprofen,50,56,stomach pain,7.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 45 | Side Effects: stomach pain | Improvement Score: 7.0
+P0288,71,Male,Hypertension,losartan,250,14,back pain,7.3,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 71 | Side Effects: back pain | Improvement Score: 7.3
+P0289,40,Male,Hypertension,losartan,850,54,headache,5.1,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 40 | Side Effects: headache | Improvement Score: 5.1
+P0290,54,Female,Infection,amoxicillin,100,7,allergy,6.1,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 54 | Side Effects: allergy | Improvement Score: 6.1
+P0291,49,Male,Infection,amoxicillin,250,17,allergy,6.4,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 49 | Side Effects: allergy | Improvement Score: 6.4
+P0292,50,Female,Depression,bupropion,500,47,headache,6.5,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 50 | Side Effects: headache | Improvement Score: 6.5
+P0293,18,Female,Diabetes,metformin,100,53,stomach upset,8.9,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 18 | Side Effects: stomach upset | Improvement Score: 8.9
+P0294,36,Male,Pain Relief,tramadol,50,34,nausea,7.8,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 36 | Side Effects: nausea | Improvement Score: 7.8
+P0295,79,Female,Depression,escitalopram,100,58,sleep issues,5.3,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 79 | Side Effects: sleep issues | Improvement Score: 5.3
+P0296,19,Female,Infection,amoxicillin,850,49,rash,7.4,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 19 | Side Effects: rash | Improvement Score: 7.4
+P0297,70,Female,Pain Relief,paracetamol,500,10,liver issues,7.7,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 70 | Side Effects: liver issues | Improvement Score: 7.7
+P0298,61,Male,Infection,azithromycin,250,21,headache,8.7,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 61 | Side Effects: headache | Improvement Score: 8.7
+P0299,43,Female,Pain Relief,ibuprofen,100,49,stomach pain,9.4,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 43 | Side Effects: stomach pain | Improvement Score: 9.4
+P0300,49,Female,Diabetes,insulin glargine,250,55,injection site pain,5.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 49 | Side Effects: injection site pain | Improvement Score: 5.5
+P0301,23,Female,Depression,bupropion,100,57,headache,5.8,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 23 | Side Effects: headache | Improvement Score: 5.8
+P0302,49,Male,Pain Relief,paracetamol,50,23,fatigue,5.1,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 49 | Side Effects: fatigue | Improvement Score: 5.1
+P0303,72,Female,Hypertension,amlodipine,100,46,dizziness,6.6,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 72 | Side Effects: dizziness | Improvement Score: 6.6
+P0304,21,Male,Hypertension,amlodipine,500,39,dizziness,7.7,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 21 | Side Effects: dizziness | Improvement Score: 7.7
+P0305,72,Male,Pain Relief,paracetamol,50,50,liver issues,8.5,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 72 | Side Effects: liver issues | Improvement Score: 8.5
+P0306,28,Male,Pain Relief,ibuprofen,50,30,heartburn,6.9,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 28 | Side Effects: heartburn | Improvement Score: 6.9
+P0307,73,Male,Pain Relief,tramadol,850,55,dizziness,6.5,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 73 | Side Effects: dizziness | Improvement Score: 6.5
+P0308,76,Male,Hypertension,amlodipine,850,9,dizziness,7.2,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 76 | Side Effects: dizziness | Improvement Score: 7.2
+P0309,34,Male,Hypertension,losartan,50,33,back pain,5.7,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 34 | Side Effects: back pain | Improvement Score: 5.7
+P0310,55,Female,Pain Relief,ibuprofen,100,41,stomach pain,10.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 55 | Side Effects: stomach pain | Improvement Score: 10.0
+P0311,41,Male,Infection,amoxicillin,850,24,allergy,4.6,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 41 | Side Effects: allergy | Improvement Score: 4.6
+P0312,22,Female,Infection,ciprofloxacin,250,53,nausea,7.3,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 22 | Side Effects: nausea | Improvement Score: 7.3
+P0313,69,Female,Diabetes,metformin,100,25,stomach upset,10.0,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 69 | Side Effects: stomach upset | Improvement Score: 10.0
+P0314,51,Male,Depression,escitalopram,100,14,sweating,7.0,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 51 | Side Effects: sweating | Improvement Score: 7.0
+P0315,23,Female,Infection,amoxicillin,500,9,diarrhea,6.7,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 23 | Side Effects: diarrhea | Improvement Score: 6.7
+P0316,39,Female,Hypertension,metoprolol,100,40,dizziness,6.5,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 39 | Side Effects: dizziness | Improvement Score: 6.5
+P0317,28,Female,Infection,azithromycin,50,10,nausea,6.7,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 28 | Side Effects: nausea | Improvement Score: 6.7
+P0318,65,Female,Diabetes,glipizide,100,30,low blood sugar,9.1,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 65 | Side Effects: low blood sugar | Improvement Score: 9.1
+P0319,33,Male,Diabetes,metformin,100,8,diarrhea,3.7,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 33 | Side Effects: diarrhea | Improvement Score: 3.7
+P0320,50,Female,Depression,bupropion,50,43,anxiety,9.3,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 50 | Side Effects: anxiety | Improvement Score: 9.3
+P0321,26,Male,Infection,ciprofloxacin,50,43,nausea,4.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 26 | Side Effects: nausea | Improvement Score: 4.9
+P0322,77,Female,Hypertension,losartan,250,54,cough,6.6,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 77 | Side Effects: cough | Improvement Score: 6.6
+P0323,76,Female,Hypertension,metoprolol,250,39,slow heartbeat,6.4,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 76 | Side Effects: slow heartbeat | Improvement Score: 6.4
+P0324,23,Male,Pain Relief,tramadol,50,5,nausea,7.9,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 23 | Side Effects: nausea | Improvement Score: 7.9
+P0325,33,Female,Hypertension,amlodipine,250,28,dizziness,4.6,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 33 | Side Effects: dizziness | Improvement Score: 4.6
+P0326,46,Female,Depression,bupropion,250,40,headache,7.7,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 46 | Side Effects: headache | Improvement Score: 7.7
+P0327,20,Female,Depression,sertraline,100,10,insomnia,10.0,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 20 | Side Effects: insomnia | Improvement Score: 10.0
+P0328,37,Male,Hypertension,metoprolol,500,45,dizziness,5.0,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 37 | Side Effects: dizziness | Improvement Score: 5.0
+P0329,77,Female,Hypertension,losartan,500,58,back pain,7.3,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 77 | Side Effects: back pain | Improvement Score: 7.3
+P0330,76,Male,Pain Relief,ibuprofen,100,50,stomach pain,6.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 76 | Side Effects: stomach pain | Improvement Score: 6.0
+P0331,53,Female,Hypertension,metoprolol,500,48,tiredness,7.6,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 53 | Side Effects: tiredness | Improvement Score: 7.6
+P0332,36,Male,Pain Relief,paracetamol,250,35,rash,7.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 36 | Side Effects: rash | Improvement Score: 7.0
+P0333,43,Male,Pain Relief,ibuprofen,50,24,nausea,6.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 43 | Side Effects: nausea | Improvement Score: 6.0
+P0334,20,Female,Hypertension,amlodipine,850,28,fatigue,7.7,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 20 | Side Effects: fatigue | Improvement Score: 7.7
+P0335,36,Female,Diabetes,insulin glargine,100,29,injection site pain,9.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 36 | Side Effects: injection site pain | Improvement Score: 9.7
+P0336,37,Male,Diabetes,metformin,250,40,stomach upset,6.7,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 37 | Side Effects: stomach upset | Improvement Score: 6.7
+P0337,49,Male,Pain Relief,tramadol,50,25,nausea,8.1,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 49 | Side Effects: nausea | Improvement Score: 8.1
+P0338,24,Female,Hypertension,amlodipine,50,34,swelling,5.1,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 24 | Side Effects: swelling | Improvement Score: 5.1
+P0339,69,Male,Diabetes,glipizide,850,28,low blood sugar,5.6,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 69 | Side Effects: low blood sugar | Improvement Score: 5.6
+P0340,58,Female,Hypertension,losartan,100,48,cough,7.7,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 58 | Side Effects: cough | Improvement Score: 7.7
+P0341,50,Female,Hypertension,losartan,100,46,headache,9.2,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 50 | Side Effects: headache | Improvement Score: 9.2
+P0342,57,Female,Hypertension,amlodipine,100,34,fatigue,7.5,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 57 | Side Effects: fatigue | Improvement Score: 7.5
+P0343,56,Female,Infection,ciprofloxacin,500,26,dizziness,6.5,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 56 | Side Effects: dizziness | Improvement Score: 6.5
+P0344,35,Male,Hypertension,losartan,250,32,headache,7.0,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 35 | Side Effects: headache | Improvement Score: 7.0
+P0345,57,Female,Infection,amoxicillin,100,11,rash,5.1,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 57 | Side Effects: rash | Improvement Score: 5.1
+P0346,18,Male,Pain Relief,paracetamol,250,39,fatigue,7.9,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 18 | Side Effects: fatigue | Improvement Score: 7.9
+P0347,28,Female,Diabetes,glipizide,50,59,skin rash,8.3,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 28 | Side Effects: skin rash | Improvement Score: 8.3
+P0348,45,Male,Diabetes,insulin glargine,250,32,injection site pain,6.3,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 45 | Side Effects: injection site pain | Improvement Score: 6.3
+P0349,74,Female,Diabetes,metformin,250,18,nausea,6.3,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 74 | Side Effects: nausea | Improvement Score: 6.3
+P0350,42,Male,Diabetes,insulin glargine,850,14,injection site pain,7.4,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 42 | Side Effects: injection site pain | Improvement Score: 7.4
+P0351,67,Male,Diabetes,insulin glargine,500,20,low sugar,6.3,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 67 | Side Effects: low sugar | Improvement Score: 6.3
+P0352,40,Female,Diabetes,glipizide,850,20,skin rash,6.9,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 40 | Side Effects: skin rash | Improvement Score: 6.9
+P0353,48,Female,Diabetes,glipizide,500,58,skin rash,10.0,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 48 | Side Effects: skin rash | Improvement Score: 10.0
+P0354,47,Female,Pain Relief,tramadol,850,35,dizziness,6.6,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 47 | Side Effects: dizziness | Improvement Score: 6.6
+P0355,59,Female,Hypertension,metoprolol,500,46,slow heartbeat,6.5,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 59 | Side Effects: slow heartbeat | Improvement Score: 6.5
+P0356,52,Male,Depression,bupropion,100,29,headache,6.0,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 52 | Side Effects: headache | Improvement Score: 6.0
+P0357,24,Female,Infection,amoxicillin,850,17,allergy,8.1,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 24 | Side Effects: allergy | Improvement Score: 8.1
+P0358,77,Male,Depression,escitalopram,250,10,sweating,6.7,Drug: escitalopram | Condition: Depression | Dosage: 250 | Age Group: 77 | Side Effects: sweating | Improvement Score: 6.7
+P0359,33,Male,Depression,sertraline,50,48,insomnia,6.0,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 33 | Side Effects: insomnia | Improvement Score: 6.0
+P0360,43,Female,Hypertension,metoprolol,250,13,dizziness,9.0,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 43 | Side Effects: dizziness | Improvement Score: 9.0
+P0361,65,Male,Hypertension,losartan,850,49,headache,9.1,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 65 | Side Effects: headache | Improvement Score: 9.1
+P0362,74,Male,Hypertension,losartan,500,40,headache,6.1,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 74 | Side Effects: headache | Improvement Score: 6.1
+P0363,69,Male,Diabetes,metformin,50,47,nausea,4.2,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 69 | Side Effects: nausea | Improvement Score: 4.2
+P0364,77,Male,Pain Relief,paracetamol,100,24,rash,8.5,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 77 | Side Effects: rash | Improvement Score: 8.5
+P0365,66,Female,Diabetes,metformin,50,22,diarrhea,6.0,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 66 | Side Effects: diarrhea | Improvement Score: 6.0
+P0366,19,Female,Pain Relief,ibuprofen,100,47,stomach pain,8.2,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 19 | Side Effects: stomach pain | Improvement Score: 8.2
+P0367,18,Female,Pain Relief,tramadol,850,25,nausea,4.0,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 18 | Side Effects: nausea | Improvement Score: 4.0
+P0368,65,Female,Depression,escitalopram,850,8,sleep issues,8.3,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 65 | Side Effects: sleep issues | Improvement Score: 8.3
+P0369,79,Male,Depression,sertraline,500,54,drowsiness,5.2,Drug: sertraline | Condition: Depression | Dosage: 500 | Age Group: 79 | Side Effects: drowsiness | Improvement Score: 5.2
+P0370,29,Male,Pain Relief,tramadol,100,37,nausea,8.1,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 29 | Side Effects: nausea | Improvement Score: 8.1
+P0371,22,Female,Pain Relief,ibuprofen,50,31,stomach pain,7.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 22 | Side Effects: stomach pain | Improvement Score: 7.0
+P0372,54,Female,Diabetes,glipizide,100,11,low blood sugar,5.6,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 54 | Side Effects: low blood sugar | Improvement Score: 5.6
+P0373,49,Female,Diabetes,insulin glargine,250,10,weight gain,6.4,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 49 | Side Effects: weight gain | Improvement Score: 6.4
+P0374,76,Male,Depression,sertraline,250,19,dry mouth,8.0,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 76 | Side Effects: dry mouth | Improvement Score: 8.0
+P0375,72,Female,Hypertension,metoprolol,250,22,tiredness,7.2,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 72 | Side Effects: tiredness | Improvement Score: 7.2
+P0376,26,Female,Pain Relief,ibuprofen,100,36,heartburn,7.9,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 26 | Side Effects: heartburn | Improvement Score: 7.9
+P0377,58,Female,Diabetes,insulin glargine,250,15,weight gain,10.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 58 | Side Effects: weight gain | Improvement Score: 10.0
+P0378,52,Male,Depression,sertraline,250,24,drowsiness,4.7,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 52 | Side Effects: drowsiness | Improvement Score: 4.7
+P0379,36,Male,Diabetes,glipizide,50,28,skin rash,9.4,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 36 | Side Effects: skin rash | Improvement Score: 9.4
+P0380,65,Male,Pain Relief,tramadol,100,19,nausea,7.2,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 65 | Side Effects: nausea | Improvement Score: 7.2
+P0381,33,Male,Pain Relief,paracetamol,100,52,rash,5.7,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 33 | Side Effects: rash | Improvement Score: 5.7
+P0382,20,Male,Infection,azithromycin,100,11,abdominal pain,5.0,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 20 | Side Effects: abdominal pain | Improvement Score: 5.0
+P0383,37,Male,Hypertension,amlodipine,500,25,fatigue,6.7,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 37 | Side Effects: fatigue | Improvement Score: 6.7
+P0384,41,Male,Infection,ciprofloxacin,100,46,joint pain,8.4,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 41 | Side Effects: joint pain | Improvement Score: 8.4
+P0385,71,Male,Depression,sertraline,850,30,drowsiness,6.8,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 71 | Side Effects: drowsiness | Improvement Score: 6.8
+P0386,73,Female,Diabetes,insulin glargine,500,48,injection site pain,9.3,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 73 | Side Effects: injection site pain | Improvement Score: 9.3
+P0387,50,Female,Depression,sertraline,250,18,insomnia,4.8,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 50 | Side Effects: insomnia | Improvement Score: 4.8
+P0388,41,Male,Pain Relief,paracetamol,500,41,liver issues,7.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 41 | Side Effects: liver issues | Improvement Score: 7.0
+P0389,69,Male,Infection,ciprofloxacin,250,25,nausea,5.1,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 69 | Side Effects: nausea | Improvement Score: 5.1
+P0390,28,Female,Infection,azithromycin,250,22,abdominal pain,7.5,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 28 | Side Effects: abdominal pain | Improvement Score: 7.5
+P0391,66,Male,Infection,amoxicillin,250,9,allergy,8.3,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 66 | Side Effects: allergy | Improvement Score: 8.3
+P0392,25,Male,Depression,bupropion,50,7,anxiety,6.4,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 25 | Side Effects: anxiety | Improvement Score: 6.4
+P0393,53,Male,Pain Relief,ibuprofen,850,27,heartburn,3.1,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 53 | Side Effects: heartburn | Improvement Score: 3.1
+P0394,55,Female,Diabetes,glipizide,850,30,nausea,7.3,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 55 | Side Effects: nausea | Improvement Score: 7.3
+P0395,57,Female,Diabetes,insulin glargine,250,41,low sugar,7.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 57 | Side Effects: low sugar | Improvement Score: 7.7
+P0396,37,Female,Depression,bupropion,500,28,headache,7.6,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 37 | Side Effects: headache | Improvement Score: 7.6
+P0397,79,Female,Infection,azithromycin,100,53,nausea,8.9,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 79 | Side Effects: nausea | Improvement Score: 8.9
+P0398,52,Female,Hypertension,amlodipine,850,23,dizziness,5.4,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 52 | Side Effects: dizziness | Improvement Score: 5.4
+P0399,65,Male,Depression,sertraline,100,55,drowsiness,8.0,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 65 | Side Effects: drowsiness | Improvement Score: 8.0
+P0400,79,Female,Depression,bupropion,250,29,anxiety,8.8,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 79 | Side Effects: anxiety | Improvement Score: 8.8
+P0401,42,Male,Pain Relief,tramadol,850,25,constipation,4.3,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 42 | Side Effects: constipation | Improvement Score: 4.3
+P0402,52,Male,Diabetes,metformin,50,16,stomach upset,7.5,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 52 | Side Effects: stomach upset | Improvement Score: 7.5
+P0403,42,Female,Depression,bupropion,50,45,headache,6.2,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 42 | Side Effects: headache | Improvement Score: 6.2
+P0404,46,Female,Depression,escitalopram,500,37,nausea,6.9,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 46 | Side Effects: nausea | Improvement Score: 6.9
+P0405,35,Male,Infection,ciprofloxacin,50,54,joint pain,7.5,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 35 | Side Effects: joint pain | Improvement Score: 7.5
+P0406,63,Male,Infection,azithromycin,250,57,headache,6.3,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 63 | Side Effects: headache | Improvement Score: 6.3
+P0407,35,Male,Hypertension,metoprolol,250,8,tiredness,6.0,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 35 | Side Effects: tiredness | Improvement Score: 6.0
+P0408,19,Female,Pain Relief,ibuprofen,100,46,stomach pain,7.1,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 19 | Side Effects: stomach pain | Improvement Score: 7.1
+P0409,71,Female,Hypertension,losartan,250,11,cough,5.4,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 71 | Side Effects: cough | Improvement Score: 5.4
+P0410,52,Female,Infection,ciprofloxacin,50,26,joint pain,5.4,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 52 | Side Effects: joint pain | Improvement Score: 5.4
+P0411,33,Female,Diabetes,glipizide,250,59,nausea,8.0,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 33 | Side Effects: nausea | Improvement Score: 8.0
+P0412,78,Female,Infection,amoxicillin,50,37,rash,5.3,Drug: amoxicillin | Condition: Infection | Dosage: 50 | Age Group: 78 | Side Effects: rash | Improvement Score: 5.3
+P0413,58,Male,Pain Relief,tramadol,50,21,nausea,8.0,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 58 | Side Effects: nausea | Improvement Score: 8.0
+P0414,53,Female,Infection,amoxicillin,500,28,allergy,7.7,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 53 | Side Effects: allergy | Improvement Score: 7.7
+P0415,50,Male,Pain Relief,tramadol,850,38,nausea,4.4,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 50 | Side Effects: nausea | Improvement Score: 4.4
+P0416,21,Male,Pain Relief,tramadol,100,32,constipation,6.0,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 21 | Side Effects: constipation | Improvement Score: 6.0
+P0417,50,Male,Pain Relief,paracetamol,100,47,liver issues,8.8,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 50 | Side Effects: liver issues | Improvement Score: 8.8
+P0418,31,Female,Pain Relief,paracetamol,100,45,fatigue,5.5,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 31 | Side Effects: fatigue | Improvement Score: 5.5
+P0419,38,Female,Pain Relief,paracetamol,50,43,liver issues,6.3,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 38 | Side Effects: liver issues | Improvement Score: 6.3
+P0420,65,Female,Diabetes,metformin,850,26,nausea,7.7,Drug: metformin | Condition: Diabetes | Dosage: 850 | Age Group: 65 | Side Effects: nausea | Improvement Score: 7.7
+P0421,37,Male,Hypertension,losartan,850,53,back pain,8.2,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 37 | Side Effects: back pain | Improvement Score: 8.2
+P0422,73,Male,Depression,escitalopram,500,21,sleep issues,6.6,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 73 | Side Effects: sleep issues | Improvement Score: 6.6
+P0423,25,Male,Hypertension,metoprolol,50,38,tiredness,6.1,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 25 | Side Effects: tiredness | Improvement Score: 6.1
+P0424,24,Male,Pain Relief,paracetamol,500,10,fatigue,9.1,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 24 | Side Effects: fatigue | Improvement Score: 9.1
+P0425,20,Male,Diabetes,metformin,50,50,nausea,9.6,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 20 | Side Effects: nausea | Improvement Score: 9.6
+P0426,34,Male,Infection,ciprofloxacin,100,10,dizziness,8.5,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 34 | Side Effects: dizziness | Improvement Score: 8.5
+P0427,50,Female,Diabetes,glipizide,250,38,nausea,7.1,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 50 | Side Effects: nausea | Improvement Score: 7.1
+P0428,65,Female,Pain Relief,paracetamol,50,5,rash,5.8,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 65 | Side Effects: rash | Improvement Score: 5.8
+P0429,29,Female,Diabetes,insulin glargine,50,14,injection site pain,5.8,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 29 | Side Effects: injection site pain | Improvement Score: 5.8
+P0430,76,Female,Diabetes,insulin glargine,850,25,weight gain,7.8,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 76 | Side Effects: weight gain | Improvement Score: 7.8
+P0431,68,Male,Pain Relief,ibuprofen,500,9,stomach pain,7.6,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 68 | Side Effects: stomach pain | Improvement Score: 7.6
+P0432,39,Male,Diabetes,metformin,850,6,diarrhea,9.1,Drug: metformin | Condition: Diabetes | Dosage: 850 | Age Group: 39 | Side Effects: diarrhea | Improvement Score: 9.1
+P0433,72,Female,Depression,escitalopram,250,26,nausea,8.0,Drug: escitalopram | Condition: Depression | Dosage: 250 | Age Group: 72 | Side Effects: nausea | Improvement Score: 8.0
+P0434,39,Male,Depression,escitalopram,100,52,sweating,4.7,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 39 | Side Effects: sweating | Improvement Score: 4.7
+P0435,63,Female,Diabetes,glipizide,850,6,low blood sugar,8.6,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 63 | Side Effects: low blood sugar | Improvement Score: 8.6
+P0436,47,Female,Infection,ciprofloxacin,250,14,dizziness,5.5,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 47 | Side Effects: dizziness | Improvement Score: 5.5
+P0437,55,Female,Pain Relief,paracetamol,100,38,rash,6.4,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 55 | Side Effects: rash | Improvement Score: 6.4
+P0438,55,Male,Depression,escitalopram,250,20,sweating,7.4,Drug: escitalopram | Condition: Depression | Dosage: 250 | Age Group: 55 | Side Effects: sweating | Improvement Score: 7.4
+P0439,62,Female,Infection,azithromycin,500,52,abdominal pain,10.0,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 62 | Side Effects: abdominal pain | Improvement Score: 10.0
+P0440,68,Female,Diabetes,glipizide,100,55,skin rash,10.0,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 68 | Side Effects: skin rash | Improvement Score: 10.0
+P0441,71,Female,Infection,amoxicillin,500,43,diarrhea,7.9,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 71 | Side Effects: diarrhea | Improvement Score: 7.9
+P0442,25,Male,Hypertension,losartan,250,26,headache,6.7,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 25 | Side Effects: headache | Improvement Score: 6.7
+P0443,44,Male,Depression,escitalopram,100,16,sweating,7.8,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 44 | Side Effects: sweating | Improvement Score: 7.8
+P0444,44,Female,Diabetes,insulin glargine,250,28,weight gain,8.3,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 44 | Side Effects: weight gain | Improvement Score: 8.3
+P0445,51,Male,Pain Relief,tramadol,850,51,nausea,6.5,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 51 | Side Effects: nausea | Improvement Score: 6.5
+P0446,38,Male,Diabetes,insulin glargine,250,44,low sugar,9.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 38 | Side Effects: low sugar | Improvement Score: 9.7
+P0447,47,Male,Pain Relief,tramadol,50,42,constipation,7.3,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 47 | Side Effects: constipation | Improvement Score: 7.3
+P0448,50,Male,Diabetes,insulin glargine,50,14,weight gain,7.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 50 | Side Effects: weight gain | Improvement Score: 7.7
+P0449,45,Male,Infection,amoxicillin,50,39,allergy,8.0,Drug: amoxicillin | Condition: Infection | Dosage: 50 | Age Group: 45 | Side Effects: allergy | Improvement Score: 8.0
+P0450,64,Male,Infection,amoxicillin,250,55,rash,7.6,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 64 | Side Effects: rash | Improvement Score: 7.6
+P0451,50,Male,Infection,ciprofloxacin,250,53,dizziness,8.3,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 50 | Side Effects: dizziness | Improvement Score: 8.3
+P0452,22,Male,Hypertension,losartan,50,36,headache,6.1,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 22 | Side Effects: headache | Improvement Score: 6.1
+P0453,77,Male,Pain Relief,paracetamol,50,11,fatigue,6.2,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 77 | Side Effects: fatigue | Improvement Score: 6.2
+P0454,78,Male,Infection,azithromycin,250,25,headache,5.3,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 78 | Side Effects: headache | Improvement Score: 5.3
+P0455,65,Female,Hypertension,amlodipine,500,24,swelling,7.7,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 65 | Side Effects: swelling | Improvement Score: 7.7
+P0456,36,Female,Pain Relief,ibuprofen,850,30,nausea,8.2,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 36 | Side Effects: nausea | Improvement Score: 8.2
+P0457,21,Male,Diabetes,insulin glargine,850,8,weight gain,7.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 21 | Side Effects: weight gain | Improvement Score: 7.7
+P0458,52,Female,Hypertension,amlodipine,250,50,fatigue,9.5,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 52 | Side Effects: fatigue | Improvement Score: 9.5
+P0459,66,Female,Depression,escitalopram,850,56,sleep issues,7.0,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 66 | Side Effects: sleep issues | Improvement Score: 7.0
+P0460,34,Male,Hypertension,losartan,500,26,cough,8.0,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 34 | Side Effects: cough | Improvement Score: 8.0
+P0461,61,Male,Hypertension,amlodipine,50,19,swelling,5.4,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 61 | Side Effects: swelling | Improvement Score: 5.4
+P0462,45,Male,Pain Relief,tramadol,50,44,dizziness,6.4,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 45 | Side Effects: dizziness | Improvement Score: 6.4
+P0463,47,Female,Diabetes,glipizide,100,25,nausea,8.0,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 47 | Side Effects: nausea | Improvement Score: 8.0
+P0464,46,Female,Depression,escitalopram,850,19,nausea,8.3,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 46 | Side Effects: nausea | Improvement Score: 8.3
+P0465,63,Male,Infection,amoxicillin,500,26,allergy,6.6,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 63 | Side Effects: allergy | Improvement Score: 6.6
+P0466,70,Male,Infection,amoxicillin,500,56,rash,6.9,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 70 | Side Effects: rash | Improvement Score: 6.9
+P0467,23,Male,Hypertension,metoprolol,100,32,dizziness,4.7,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 23 | Side Effects: dizziness | Improvement Score: 4.7
+P0468,52,Female,Pain Relief,ibuprofen,250,18,nausea,6.5,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 52 | Side Effects: nausea | Improvement Score: 6.5
+P0469,77,Female,Pain Relief,paracetamol,100,31,rash,8.3,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 77 | Side Effects: rash | Improvement Score: 8.3
+P0470,58,Female,Infection,ciprofloxacin,100,45,nausea,7.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 58 | Side Effects: nausea | Improvement Score: 7.9
+P0471,54,Female,Depression,escitalopram,100,44,sweating,7.8,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 54 | Side Effects: sweating | Improvement Score: 7.8
+P0472,41,Male,Diabetes,metformin,100,32,stomach upset,7.1,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 41 | Side Effects: stomach upset | Improvement Score: 7.1
+P0473,46,Male,Depression,bupropion,500,30,anxiety,7.0,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 46 | Side Effects: anxiety | Improvement Score: 7.0
+P0474,66,Male,Diabetes,metformin,500,53,stomach upset,6.0,Drug: metformin | Condition: Diabetes | Dosage: 500 | Age Group: 66 | Side Effects: stomach upset | Improvement Score: 6.0
+P0475,63,Male,Infection,ciprofloxacin,250,6,nausea,8.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 63 | Side Effects: nausea | Improvement Score: 8.0
+P0476,70,Female,Diabetes,metformin,850,29,diarrhea,7.6,Drug: metformin | Condition: Diabetes | Dosage: 850 | Age Group: 70 | Side Effects: diarrhea | Improvement Score: 7.6
+P0477,48,Female,Pain Relief,paracetamol,250,7,rash,7.7,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 48 | Side Effects: rash | Improvement Score: 7.7
+P0478,52,Male,Hypertension,metoprolol,50,12,tiredness,6.2,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 52 | Side Effects: tiredness | Improvement Score: 6.2
+P0479,77,Male,Hypertension,losartan,50,48,cough,3.8,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 77 | Side Effects: cough | Improvement Score: 3.8
+P0480,50,Female,Infection,azithromycin,100,37,nausea,8.6,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 50 | Side Effects: nausea | Improvement Score: 8.6
+P0481,69,Male,Pain Relief,tramadol,100,46,nausea,6.3,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 69 | Side Effects: nausea | Improvement Score: 6.3
+P0482,78,Female,Depression,escitalopram,50,56,sleep issues,5.7,Drug: escitalopram | Condition: Depression | Dosage: 50 | Age Group: 78 | Side Effects: sleep issues | Improvement Score: 5.7
+P0483,38,Male,Pain Relief,ibuprofen,50,39,heartburn,8.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 38 | Side Effects: heartburn | Improvement Score: 8.0
+P0484,49,Male,Hypertension,metoprolol,850,10,tiredness,6.4,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 49 | Side Effects: tiredness | Improvement Score: 6.4
+P0485,40,Male,Hypertension,losartan,100,43,back pain,8.6,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 40 | Side Effects: back pain | Improvement Score: 8.6
+P0486,50,Male,Pain Relief,tramadol,850,56,constipation,7.9,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 50 | Side Effects: constipation | Improvement Score: 7.9
+P0487,20,Male,Pain Relief,ibuprofen,100,27,stomach pain,8.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 20 | Side Effects: stomach pain | Improvement Score: 8.0
+P0488,35,Male,Hypertension,metoprolol,250,29,tiredness,5.0,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 35 | Side Effects: tiredness | Improvement Score: 5.0
+P0489,42,Male,Depression,escitalopram,850,54,nausea,8.8,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 42 | Side Effects: nausea | Improvement Score: 8.8
+P0490,59,Female,Infection,amoxicillin,850,47,allergy,7.4,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 59 | Side Effects: allergy | Improvement Score: 7.4
+P0491,48,Female,Infection,ciprofloxacin,100,23,dizziness,6.4,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 48 | Side Effects: dizziness | Improvement Score: 6.4
+P0492,71,Female,Pain Relief,ibuprofen,250,9,stomach pain,7.2,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 71 | Side Effects: stomach pain | Improvement Score: 7.2
+P0493,75,Female,Infection,ciprofloxacin,250,55,dizziness,4.3,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 75 | Side Effects: dizziness | Improvement Score: 4.3
+P0494,20,Female,Hypertension,amlodipine,850,15,fatigue,7.6,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 20 | Side Effects: fatigue | Improvement Score: 7.6
+P0495,57,Male,Hypertension,amlodipine,50,16,swelling,5.5,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 57 | Side Effects: swelling | Improvement Score: 5.5
+P0496,63,Male,Pain Relief,ibuprofen,500,14,stomach pain,5.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 63 | Side Effects: stomach pain | Improvement Score: 5.0
+P0497,41,Female,Pain Relief,ibuprofen,50,12,nausea,4.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 41 | Side Effects: nausea | Improvement Score: 4.7
+P0498,67,Male,Pain Relief,tramadol,250,28,dizziness,8.7,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 67 | Side Effects: dizziness | Improvement Score: 8.7
+P0499,49,Female,Depression,bupropion,500,32,dry mouth,6.1,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 49 | Side Effects: dry mouth | Improvement Score: 6.1
+P0500,64,Female,Infection,amoxicillin,850,45,rash,9.3,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 64 | Side Effects: rash | Improvement Score: 9.3
+P0501,39,Male,Pain Relief,tramadol,850,40,nausea,6.2,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 39 | Side Effects: nausea | Improvement Score: 6.2
+P0502,40,Male,Diabetes,insulin glargine,50,41,low sugar,4.4,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 40 | Side Effects: low sugar | Improvement Score: 4.4
+P0503,19,Male,Diabetes,insulin glargine,50,25,weight gain,5.3,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 19 | Side Effects: weight gain | Improvement Score: 5.3
+P0504,44,Female,Hypertension,losartan,500,12,back pain,8.9,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 44 | Side Effects: back pain | Improvement Score: 8.9
+P0505,59,Male,Infection,ciprofloxacin,850,59,joint pain,6.8,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 59 | Side Effects: joint pain | Improvement Score: 6.8
+P0506,19,Female,Pain Relief,paracetamol,850,13,rash,6.2,Drug: paracetamol | Condition: Pain Relief | Dosage: 850 | Age Group: 19 | Side Effects: rash | Improvement Score: 6.2
+P0507,43,Female,Diabetes,glipizide,100,51,nausea,7.2,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 43 | Side Effects: nausea | Improvement Score: 7.2
+P0508,34,Female,Infection,amoxicillin,250,19,rash,7.8,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 34 | Side Effects: rash | Improvement Score: 7.8
+P0509,57,Male,Hypertension,losartan,500,52,headache,8.7,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 57 | Side Effects: headache | Improvement Score: 8.7
+P0510,50,Male,Depression,bupropion,100,50,dry mouth,9.2,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 50 | Side Effects: dry mouth | Improvement Score: 9.2
+P0511,26,Female,Infection,azithromycin,50,44,abdominal pain,6.5,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 26 | Side Effects: abdominal pain | Improvement Score: 6.5
+P0512,60,Male,Infection,azithromycin,250,22,abdominal pain,5.0,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 60 | Side Effects: abdominal pain | Improvement Score: 5.0
+P0513,71,Male,Depression,bupropion,50,46,dry mouth,6.4,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 71 | Side Effects: dry mouth | Improvement Score: 6.4
+P0514,65,Male,Infection,azithromycin,850,24,nausea,7.4,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 65 | Side Effects: nausea | Improvement Score: 7.4
+P0515,56,Female,Hypertension,losartan,850,10,back pain,5.6,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 56 | Side Effects: back pain | Improvement Score: 5.6
+P0516,46,Female,Hypertension,losartan,850,16,cough,5.6,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 46 | Side Effects: cough | Improvement Score: 5.6
+P0517,59,Male,Depression,escitalopram,500,6,sleep issues,7.5,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 59 | Side Effects: sleep issues | Improvement Score: 7.5
+P0518,72,Female,Pain Relief,tramadol,50,11,dizziness,6.9,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 72 | Side Effects: dizziness | Improvement Score: 6.9
+P0519,43,Male,Diabetes,insulin glargine,850,20,low sugar,7.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 43 | Side Effects: low sugar | Improvement Score: 7.0
+P0520,52,Male,Pain Relief,paracetamol,100,7,fatigue,5.9,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 52 | Side Effects: fatigue | Improvement Score: 5.9
+P0521,67,Male,Infection,ciprofloxacin,500,49,nausea,6.7,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 67 | Side Effects: nausea | Improvement Score: 6.7
+P0522,42,Male,Diabetes,insulin glargine,500,7,injection site pain,5.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 42 | Side Effects: injection site pain | Improvement Score: 5.6
+P0523,41,Female,Depression,bupropion,500,31,anxiety,8.3,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 41 | Side Effects: anxiety | Improvement Score: 8.3
+P0524,30,Female,Depression,sertraline,850,54,dry mouth,8.6,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 30 | Side Effects: dry mouth | Improvement Score: 8.6
+P0525,77,Female,Diabetes,glipizide,500,47,nausea,4.2,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 77 | Side Effects: nausea | Improvement Score: 4.2
+P0526,75,Male,Hypertension,losartan,100,44,headache,5.6,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 75 | Side Effects: headache | Improvement Score: 5.6
+P0527,24,Male,Diabetes,metformin,100,42,diarrhea,4.8,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 24 | Side Effects: diarrhea | Improvement Score: 4.8
+P0528,74,Male,Infection,amoxicillin,850,37,rash,6.0,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 74 | Side Effects: rash | Improvement Score: 6.0
+P0529,53,Female,Hypertension,losartan,50,32,back pain,6.9,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 53 | Side Effects: back pain | Improvement Score: 6.9
+P0530,62,Male,Depression,escitalopram,50,5,sleep issues,4.8,Drug: escitalopram | Condition: Depression | Dosage: 50 | Age Group: 62 | Side Effects: sleep issues | Improvement Score: 4.8
+P0531,37,Female,Diabetes,glipizide,500,59,skin rash,5.6,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 37 | Side Effects: skin rash | Improvement Score: 5.6
+P0532,18,Female,Pain Relief,ibuprofen,500,12,heartburn,5.5,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 18 | Side Effects: heartburn | Improvement Score: 5.5
+P0533,25,Female,Pain Relief,ibuprofen,850,41,heartburn,7.3,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 25 | Side Effects: heartburn | Improvement Score: 7.3
+P0534,63,Female,Infection,amoxicillin,850,36,rash,7.1,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 63 | Side Effects: rash | Improvement Score: 7.1
+P0535,33,Female,Pain Relief,tramadol,100,52,nausea,5.9,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 33 | Side Effects: nausea | Improvement Score: 5.9
+P0536,31,Female,Diabetes,metformin,500,47,stomach upset,7.3,Drug: metformin | Condition: Diabetes | Dosage: 500 | Age Group: 31 | Side Effects: stomach upset | Improvement Score: 7.3
+P0537,29,Male,Diabetes,insulin glargine,250,41,injection site pain,6.2,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 29 | Side Effects: injection site pain | Improvement Score: 6.2
+P0538,68,Male,Pain Relief,paracetamol,850,8,fatigue,6.6,Drug: paracetamol | Condition: Pain Relief | Dosage: 850 | Age Group: 68 | Side Effects: fatigue | Improvement Score: 6.6
+P0539,40,Female,Diabetes,insulin glargine,250,34,low sugar,9.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 40 | Side Effects: low sugar | Improvement Score: 9.5
+P0540,32,Female,Infection,amoxicillin,250,10,diarrhea,9.0,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 32 | Side Effects: diarrhea | Improvement Score: 9.0
+P0541,45,Male,Hypertension,losartan,500,50,headache,5.1,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 45 | Side Effects: headache | Improvement Score: 5.1
+P0542,51,Female,Infection,ciprofloxacin,100,58,joint pain,8.2,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 51 | Side Effects: joint pain | Improvement Score: 8.2
+P0543,19,Female,Infection,amoxicillin,250,23,diarrhea,8.2,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 19 | Side Effects: diarrhea | Improvement Score: 8.2
+P0544,49,Male,Diabetes,metformin,50,36,stomach upset,5.3,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 49 | Side Effects: stomach upset | Improvement Score: 5.3
+P0545,40,Female,Hypertension,metoprolol,100,13,dizziness,8.2,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 40 | Side Effects: dizziness | Improvement Score: 8.2
+P0546,39,Female,Diabetes,metformin,850,16,stomach upset,9.3,Drug: metformin | Condition: Diabetes | Dosage: 850 | Age Group: 39 | Side Effects: stomach upset | Improvement Score: 9.3
+P0547,68,Female,Depression,sertraline,850,15,dry mouth,5.3,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 68 | Side Effects: dry mouth | Improvement Score: 5.3
+P0548,42,Male,Diabetes,metformin,500,50,nausea,5.6,Drug: metformin | Condition: Diabetes | Dosage: 500 | Age Group: 42 | Side Effects: nausea | Improvement Score: 5.6
+P0549,75,Male,Diabetes,insulin glargine,250,59,injection site pain,8.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 75 | Side Effects: injection site pain | Improvement Score: 8.5
+P0550,79,Male,Diabetes,metformin,250,20,diarrhea,7.4,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 79 | Side Effects: diarrhea | Improvement Score: 7.4
+P0551,78,Female,Hypertension,amlodipine,50,5,dizziness,7.8,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 78 | Side Effects: dizziness | Improvement Score: 7.8
+P0552,39,Female,Diabetes,insulin glargine,850,49,low sugar,7.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 39 | Side Effects: low sugar | Improvement Score: 7.5
+P0553,75,Male,Hypertension,metoprolol,850,59,tiredness,7.6,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 75 | Side Effects: tiredness | Improvement Score: 7.6
+P0554,75,Female,Pain Relief,paracetamol,50,57,rash,5.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 75 | Side Effects: rash | Improvement Score: 5.0
+P0555,39,Female,Depression,bupropion,850,25,headache,8.6,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 39 | Side Effects: headache | Improvement Score: 8.6
+P0556,66,Female,Hypertension,amlodipine,100,34,fatigue,8.8,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 66 | Side Effects: fatigue | Improvement Score: 8.8
+P0557,69,Female,Pain Relief,tramadol,100,17,nausea,6.7,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 69 | Side Effects: nausea | Improvement Score: 6.7
+P0558,59,Female,Hypertension,losartan,850,38,cough,6.9,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 59 | Side Effects: cough | Improvement Score: 6.9
+P0559,23,Male,Hypertension,amlodipine,50,8,dizziness,4.7,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 23 | Side Effects: dizziness | Improvement Score: 4.7
+P0560,32,Female,Depression,bupropion,50,32,headache,7.8,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 32 | Side Effects: headache | Improvement Score: 7.8
+P0561,71,Male,Infection,ciprofloxacin,850,42,nausea,7.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 71 | Side Effects: nausea | Improvement Score: 7.9
+P0562,60,Female,Infection,amoxicillin,100,35,rash,6.9,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 60 | Side Effects: rash | Improvement Score: 6.9
+P0563,77,Male,Hypertension,losartan,500,59,headache,8.7,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 77 | Side Effects: headache | Improvement Score: 8.7
+P0564,54,Female,Diabetes,insulin glargine,850,31,low sugar,6.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 54 | Side Effects: low sugar | Improvement Score: 6.5
+P0565,50,Male,Pain Relief,paracetamol,50,9,liver issues,7.8,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 50 | Side Effects: liver issues | Improvement Score: 7.8
+P0566,25,Female,Diabetes,glipizide,250,29,nausea,5.5,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 25 | Side Effects: nausea | Improvement Score: 5.5
+P0567,70,Male,Diabetes,metformin,250,7,stomach upset,7.0,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 70 | Side Effects: stomach upset | Improvement Score: 7.0
+P0568,77,Female,Hypertension,metoprolol,850,37,tiredness,6.7,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 77 | Side Effects: tiredness | Improvement Score: 6.7
+P0569,61,Male,Hypertension,losartan,250,8,headache,7.3,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 61 | Side Effects: headache | Improvement Score: 7.3
+P0570,61,Female,Hypertension,metoprolol,850,29,tiredness,6.4,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 61 | Side Effects: tiredness | Improvement Score: 6.4
+P0571,22,Male,Hypertension,amlodipine,250,24,swelling,6.8,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 22 | Side Effects: swelling | Improvement Score: 6.8
+P0572,56,Male,Infection,ciprofloxacin,100,38,joint pain,8.2,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 56 | Side Effects: joint pain | Improvement Score: 8.2
+P0573,21,Female,Hypertension,metoprolol,850,30,tiredness,6.3,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 21 | Side Effects: tiredness | Improvement Score: 6.3
+P0574,23,Female,Infection,azithromycin,250,9,nausea,4.6,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 23 | Side Effects: nausea | Improvement Score: 4.6
+P0575,62,Male,Infection,ciprofloxacin,850,39,dizziness,9.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 62 | Side Effects: dizziness | Improvement Score: 9.6
+P0576,49,Female,Hypertension,losartan,850,32,back pain,9.1,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 49 | Side Effects: back pain | Improvement Score: 9.1
+P0577,69,Male,Depression,bupropion,100,33,dry mouth,5.1,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 69 | Side Effects: dry mouth | Improvement Score: 5.1
+P0578,47,Male,Pain Relief,paracetamol,250,13,liver issues,8.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 47 | Side Effects: liver issues | Improvement Score: 8.0
+P0579,64,Male,Diabetes,metformin,250,56,stomach upset,6.2,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 64 | Side Effects: stomach upset | Improvement Score: 6.2
+P0580,52,Female,Infection,amoxicillin,500,42,allergy,7.4,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 52 | Side Effects: allergy | Improvement Score: 7.4
+P0581,72,Male,Pain Relief,tramadol,50,54,constipation,7.4,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 72 | Side Effects: constipation | Improvement Score: 7.4
+P0582,57,Male,Depression,sertraline,850,10,drowsiness,6.6,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 57 | Side Effects: drowsiness | Improvement Score: 6.6
+P0583,69,Female,Diabetes,insulin glargine,250,23,low sugar,5.8,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 69 | Side Effects: low sugar | Improvement Score: 5.8
+P0584,33,Female,Diabetes,insulin glargine,100,48,low sugar,6.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 33 | Side Effects: low sugar | Improvement Score: 6.0
+P0585,30,Female,Infection,ciprofloxacin,500,15,joint pain,5.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 30 | Side Effects: joint pain | Improvement Score: 5.6
+P0586,67,Female,Hypertension,metoprolol,50,6,dizziness,5.8,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 67 | Side Effects: dizziness | Improvement Score: 5.8
+P0587,77,Male,Depression,escitalopram,250,51,sleep issues,6.9,Drug: escitalopram | Condition: Depression | Dosage: 250 | Age Group: 77 | Side Effects: sleep issues | Improvement Score: 6.9
+P0588,59,Male,Infection,azithromycin,500,48,nausea,5.9,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 59 | Side Effects: nausea | Improvement Score: 5.9
+P0589,47,Male,Depression,bupropion,250,48,dry mouth,8.0,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 47 | Side Effects: dry mouth | Improvement Score: 8.0
+P0590,36,Male,Hypertension,amlodipine,500,13,fatigue,9.2,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 36 | Side Effects: fatigue | Improvement Score: 9.2
+P0591,34,Female,Hypertension,amlodipine,250,25,swelling,6.1,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 34 | Side Effects: swelling | Improvement Score: 6.1
+P0592,73,Male,Infection,azithromycin,250,28,headache,7.4,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 73 | Side Effects: headache | Improvement Score: 7.4
+P0593,36,Male,Hypertension,losartan,250,38,back pain,7.7,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 36 | Side Effects: back pain | Improvement Score: 7.7
+P0594,45,Female,Pain Relief,ibuprofen,250,26,stomach pain,7.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 45 | Side Effects: stomach pain | Improvement Score: 7.7
+P0595,75,Male,Diabetes,metformin,250,7,diarrhea,7.1,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 75 | Side Effects: diarrhea | Improvement Score: 7.1
+P0596,72,Male,Infection,azithromycin,100,16,headache,8.1,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 72 | Side Effects: headache | Improvement Score: 8.1
+P0597,43,Male,Depression,sertraline,100,32,insomnia,7.7,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 43 | Side Effects: insomnia | Improvement Score: 7.7
+P0598,54,Male,Pain Relief,tramadol,250,34,nausea,5.1,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 54 | Side Effects: nausea | Improvement Score: 5.1
+P0599,43,Male,Infection,azithromycin,250,30,nausea,8.3,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 43 | Side Effects: nausea | Improvement Score: 8.3
+P0600,70,Male,Hypertension,losartan,50,52,back pain,8.3,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 70 | Side Effects: back pain | Improvement Score: 8.3
+P0601,79,Female,Hypertension,amlodipine,50,25,fatigue,5.9,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 79 | Side Effects: fatigue | Improvement Score: 5.9
+P0602,40,Female,Hypertension,metoprolol,50,32,slow heartbeat,7.1,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 40 | Side Effects: slow heartbeat | Improvement Score: 7.1
+P0603,26,Male,Hypertension,losartan,100,30,cough,8.0,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 26 | Side Effects: cough | Improvement Score: 8.0
+P0604,29,Male,Depression,escitalopram,500,37,sleep issues,6.7,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 29 | Side Effects: sleep issues | Improvement Score: 6.7
+P0605,70,Female,Pain Relief,paracetamol,850,25,fatigue,8.6,Drug: paracetamol | Condition: Pain Relief | Dosage: 850 | Age Group: 70 | Side Effects: fatigue | Improvement Score: 8.6
+P0606,18,Male,Diabetes,insulin glargine,500,39,injection site pain,10.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 18 | Side Effects: injection site pain | Improvement Score: 10.0
+P0607,75,Male,Depression,bupropion,500,56,headache,5.8,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 75 | Side Effects: headache | Improvement Score: 5.8
+P0608,75,Male,Depression,sertraline,500,38,dry mouth,4.9,Drug: sertraline | Condition: Depression | Dosage: 500 | Age Group: 75 | Side Effects: dry mouth | Improvement Score: 4.9
+P0609,18,Female,Diabetes,insulin glargine,50,45,injection site pain,7.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 18 | Side Effects: injection site pain | Improvement Score: 7.5
+P0610,64,Male,Diabetes,metformin,50,55,stomach upset,8.1,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 64 | Side Effects: stomach upset | Improvement Score: 8.1
+P0611,51,Female,Hypertension,amlodipine,500,51,fatigue,6.7,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 51 | Side Effects: fatigue | Improvement Score: 6.7
+P0612,49,Male,Depression,sertraline,850,22,drowsiness,9.2,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 49 | Side Effects: drowsiness | Improvement Score: 9.2
+P0613,79,Female,Infection,amoxicillin,500,15,rash,5.0,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 79 | Side Effects: rash | Improvement Score: 5.0
+P0614,71,Female,Diabetes,metformin,50,27,nausea,8.0,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 71 | Side Effects: nausea | Improvement Score: 8.0
+P0615,65,Male,Diabetes,metformin,100,52,nausea,6.1,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 65 | Side Effects: nausea | Improvement Score: 6.1
+P0616,42,Female,Pain Relief,paracetamol,50,26,rash,9.6,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 42 | Side Effects: rash | Improvement Score: 9.6
+P0617,57,Male,Infection,azithromycin,850,21,nausea,10.0,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 57 | Side Effects: nausea | Improvement Score: 10.0
+P0618,62,Female,Infection,amoxicillin,500,9,allergy,5.9,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 62 | Side Effects: allergy | Improvement Score: 5.9
+P0619,70,Male,Diabetes,glipizide,250,48,nausea,6.2,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 70 | Side Effects: nausea | Improvement Score: 6.2
+P0620,18,Male,Hypertension,losartan,500,15,cough,8.3,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 18 | Side Effects: cough | Improvement Score: 8.3
+P0621,33,Female,Pain Relief,tramadol,50,34,dizziness,6.4,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 33 | Side Effects: dizziness | Improvement Score: 6.4
+P0622,78,Male,Infection,amoxicillin,850,19,diarrhea,6.9,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 78 | Side Effects: diarrhea | Improvement Score: 6.9
+P0623,56,Male,Diabetes,insulin glargine,850,31,injection site pain,7.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 56 | Side Effects: injection site pain | Improvement Score: 7.0
+P0624,22,Female,Infection,azithromycin,100,39,nausea,4.1,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 22 | Side Effects: nausea | Improvement Score: 4.1
+P0625,39,Male,Pain Relief,ibuprofen,850,37,stomach pain,7.0,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 39 | Side Effects: stomach pain | Improvement Score: 7.0
+P0626,46,Male,Pain Relief,paracetamol,500,24,liver issues,6.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 46 | Side Effects: liver issues | Improvement Score: 6.0
+P0627,72,Female,Depression,bupropion,50,20,headache,6.3,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 72 | Side Effects: headache | Improvement Score: 6.3
+P0628,20,Female,Diabetes,insulin glargine,50,38,low sugar,9.2,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 20 | Side Effects: low sugar | Improvement Score: 9.2
+P0629,29,Male,Pain Relief,paracetamol,50,6,rash,5.1,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 29 | Side Effects: rash | Improvement Score: 5.1
+P0630,43,Male,Depression,escitalopram,850,39,nausea,8.2,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 43 | Side Effects: nausea | Improvement Score: 8.2
+P0631,33,Female,Depression,sertraline,850,44,drowsiness,6.6,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 33 | Side Effects: drowsiness | Improvement Score: 6.6
+P0632,68,Female,Infection,amoxicillin,100,32,allergy,6.6,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 68 | Side Effects: allergy | Improvement Score: 6.6
+P0633,54,Male,Infection,azithromycin,100,51,nausea,8.2,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 54 | Side Effects: nausea | Improvement Score: 8.2
+P0634,39,Female,Depression,sertraline,850,43,dry mouth,7.5,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 39 | Side Effects: dry mouth | Improvement Score: 7.5
+P0635,74,Male,Infection,ciprofloxacin,250,10,nausea,7.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 74 | Side Effects: nausea | Improvement Score: 7.9
+P0636,46,Male,Pain Relief,paracetamol,50,13,fatigue,8.5,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 46 | Side Effects: fatigue | Improvement Score: 8.5
+P0637,31,Male,Hypertension,metoprolol,250,24,tiredness,6.5,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 31 | Side Effects: tiredness | Improvement Score: 6.5
+P0638,45,Male,Pain Relief,tramadol,50,5,constipation,6.1,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 45 | Side Effects: constipation | Improvement Score: 6.1
+P0639,22,Male,Depression,bupropion,250,12,anxiety,5.4,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 22 | Side Effects: anxiety | Improvement Score: 5.4
+P0640,64,Female,Depression,escitalopram,50,59,sleep issues,5.8,Drug: escitalopram | Condition: Depression | Dosage: 50 | Age Group: 64 | Side Effects: sleep issues | Improvement Score: 5.8
+P0641,66,Female,Pain Relief,tramadol,250,27,dizziness,10.0,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 66 | Side Effects: dizziness | Improvement Score: 10.0
+P0642,47,Female,Infection,azithromycin,250,7,headache,8.9,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 47 | Side Effects: headache | Improvement Score: 8.9
+P0643,63,Female,Infection,amoxicillin,250,8,diarrhea,5.0,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 63 | Side Effects: diarrhea | Improvement Score: 5.0
+P0644,79,Male,Depression,sertraline,850,29,insomnia,5.0,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 79 | Side Effects: insomnia | Improvement Score: 5.0
+P0645,69,Male,Diabetes,glipizide,50,51,skin rash,7.7,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 69 | Side Effects: skin rash | Improvement Score: 7.7
+P0646,22,Male,Infection,amoxicillin,100,42,rash,7.8,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 22 | Side Effects: rash | Improvement Score: 7.8
+P0647,29,Male,Pain Relief,tramadol,500,19,dizziness,7.8,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 29 | Side Effects: dizziness | Improvement Score: 7.8
+P0648,33,Female,Infection,azithromycin,50,25,abdominal pain,6.6,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 33 | Side Effects: abdominal pain | Improvement Score: 6.6
+P0649,43,Male,Pain Relief,ibuprofen,850,39,stomach pain,6.8,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 43 | Side Effects: stomach pain | Improvement Score: 6.8
+P0650,43,Male,Depression,bupropion,500,57,dry mouth,7.5,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 43 | Side Effects: dry mouth | Improvement Score: 7.5
+P0651,65,Female,Infection,ciprofloxacin,100,57,nausea,7.1,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 65 | Side Effects: nausea | Improvement Score: 7.1
+P0652,38,Female,Pain Relief,tramadol,50,50,dizziness,3.7,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 38 | Side Effects: dizziness | Improvement Score: 3.7
+P0653,56,Female,Depression,sertraline,50,56,insomnia,6.7,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 56 | Side Effects: insomnia | Improvement Score: 6.7
+P0654,53,Female,Diabetes,glipizide,850,18,nausea,5.7,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 53 | Side Effects: nausea | Improvement Score: 5.7
+P0655,50,Male,Pain Relief,tramadol,500,40,constipation,7.3,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 50 | Side Effects: constipation | Improvement Score: 7.3
+P0656,79,Male,Diabetes,insulin glargine,50,16,low sugar,10.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 79 | Side Effects: low sugar | Improvement Score: 10.0
+P0657,47,Female,Diabetes,glipizide,100,21,low blood sugar,7.6,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 47 | Side Effects: low blood sugar | Improvement Score: 7.6
+P0658,54,Male,Hypertension,metoprolol,850,43,slow heartbeat,6.5,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 54 | Side Effects: slow heartbeat | Improvement Score: 6.5
+P0659,40,Male,Infection,azithromycin,250,13,headache,8.4,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 40 | Side Effects: headache | Improvement Score: 8.4
+P0660,75,Male,Pain Relief,paracetamol,100,39,liver issues,7.7,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 75 | Side Effects: liver issues | Improvement Score: 7.7
+P0661,27,Female,Diabetes,metformin,500,17,diarrhea,7.6,Drug: metformin | Condition: Diabetes | Dosage: 500 | Age Group: 27 | Side Effects: diarrhea | Improvement Score: 7.6
+P0662,71,Male,Hypertension,metoprolol,100,19,slow heartbeat,7.9,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 71 | Side Effects: slow heartbeat | Improvement Score: 7.9
+P0663,22,Female,Depression,sertraline,50,22,drowsiness,10.0,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 22 | Side Effects: drowsiness | Improvement Score: 10.0
+P0664,53,Male,Pain Relief,paracetamol,250,55,rash,5.3,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 53 | Side Effects: rash | Improvement Score: 5.3
+P0665,51,Male,Diabetes,glipizide,500,37,low blood sugar,7.7,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 51 | Side Effects: low blood sugar | Improvement Score: 7.7
+P0666,69,Male,Infection,ciprofloxacin,500,10,dizziness,5.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 69 | Side Effects: dizziness | Improvement Score: 5.6
+P0667,48,Female,Hypertension,amlodipine,100,31,swelling,7.8,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 48 | Side Effects: swelling | Improvement Score: 7.8
+P0668,27,Male,Diabetes,glipizide,850,27,low blood sugar,5.6,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 27 | Side Effects: low blood sugar | Improvement Score: 5.6
+P0669,75,Female,Infection,azithromycin,500,31,nausea,6.4,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 75 | Side Effects: nausea | Improvement Score: 6.4
+P0670,36,Female,Diabetes,insulin glargine,850,38,weight gain,6.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 36 | Side Effects: weight gain | Improvement Score: 6.6
+P0671,75,Female,Pain Relief,paracetamol,850,50,rash,8.5,Drug: paracetamol | Condition: Pain Relief | Dosage: 850 | Age Group: 75 | Side Effects: rash | Improvement Score: 8.5
+P0672,49,Male,Pain Relief,tramadol,850,42,dizziness,8.4,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 49 | Side Effects: dizziness | Improvement Score: 8.4
+P0673,18,Male,Pain Relief,ibuprofen,250,18,nausea,5.1,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 18 | Side Effects: nausea | Improvement Score: 5.1
+P0674,73,Male,Hypertension,losartan,500,40,back pain,7.1,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 73 | Side Effects: back pain | Improvement Score: 7.1
+P0675,22,Male,Pain Relief,paracetamol,250,57,fatigue,5.9,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 22 | Side Effects: fatigue | Improvement Score: 5.9
+P0676,62,Female,Infection,azithromycin,250,12,headache,5.1,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 62 | Side Effects: headache | Improvement Score: 5.1
+P0677,21,Female,Diabetes,insulin glargine,850,39,injection site pain,6.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 21 | Side Effects: injection site pain | Improvement Score: 6.7
+P0678,33,Female,Depression,sertraline,500,23,insomnia,6.5,Drug: sertraline | Condition: Depression | Dosage: 500 | Age Group: 33 | Side Effects: insomnia | Improvement Score: 6.5
+P0679,41,Male,Infection,amoxicillin,50,34,rash,10.0,Drug: amoxicillin | Condition: Infection | Dosage: 50 | Age Group: 41 | Side Effects: rash | Improvement Score: 10.0
+P0680,33,Female,Infection,ciprofloxacin,500,18,dizziness,7.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 33 | Side Effects: dizziness | Improvement Score: 7.6
+P0681,72,Male,Pain Relief,ibuprofen,850,24,heartburn,4.9,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 72 | Side Effects: heartburn | Improvement Score: 4.9
+P0682,19,Female,Hypertension,amlodipine,500,53,swelling,6.2,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 19 | Side Effects: swelling | Improvement Score: 6.2
+P0683,66,Male,Diabetes,metformin,50,29,nausea,8.5,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 66 | Side Effects: nausea | Improvement Score: 8.5
+P0684,45,Male,Hypertension,amlodipine,100,44,dizziness,10.0,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 45 | Side Effects: dizziness | Improvement Score: 10.0
+P0685,49,Female,Diabetes,insulin glargine,500,28,low sugar,4.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 49 | Side Effects: low sugar | Improvement Score: 4.6
+P0686,44,Female,Diabetes,insulin glargine,500,18,low sugar,4.2,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 44 | Side Effects: low sugar | Improvement Score: 4.2
+P0687,37,Female,Hypertension,losartan,100,30,headache,9.8,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 37 | Side Effects: headache | Improvement Score: 9.8
+P0688,41,Female,Infection,ciprofloxacin,250,42,dizziness,7.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 41 | Side Effects: dizziness | Improvement Score: 7.6
+P0689,29,Male,Diabetes,glipizide,50,27,low blood sugar,5.7,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 29 | Side Effects: low blood sugar | Improvement Score: 5.7
+P0690,67,Female,Hypertension,metoprolol,850,26,slow heartbeat,7.8,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 67 | Side Effects: slow heartbeat | Improvement Score: 7.8
+P0691,52,Female,Diabetes,glipizide,250,52,low blood sugar,3.0,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 52 | Side Effects: low blood sugar | Improvement Score: 3.0
+P0692,77,Female,Depression,bupropion,850,23,anxiety,7.0,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 77 | Side Effects: anxiety | Improvement Score: 7.0
+P0693,50,Male,Infection,azithromycin,100,50,headache,7.5,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 50 | Side Effects: headache | Improvement Score: 7.5
+P0694,50,Male,Pain Relief,paracetamol,50,55,liver issues,8.4,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 50 | Side Effects: liver issues | Improvement Score: 8.4
+P0695,78,Female,Diabetes,insulin glargine,50,7,injection site pain,5.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 78 | Side Effects: injection site pain | Improvement Score: 5.5
+P0696,68,Male,Depression,escitalopram,850,46,nausea,7.1,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 68 | Side Effects: nausea | Improvement Score: 7.1
+P0697,60,Female,Pain Relief,ibuprofen,250,23,stomach pain,5.6,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 60 | Side Effects: stomach pain | Improvement Score: 5.6
+P0698,54,Male,Pain Relief,ibuprofen,100,13,nausea,7.4,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 54 | Side Effects: nausea | Improvement Score: 7.4
+P0699,29,Male,Diabetes,glipizide,850,32,skin rash,5.7,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 29 | Side Effects: skin rash | Improvement Score: 5.7
+P0700,20,Male,Hypertension,losartan,100,24,headache,6.4,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 20 | Side Effects: headache | Improvement Score: 6.4
+P0701,18,Male,Diabetes,metformin,850,49,diarrhea,5.5,Drug: metformin | Condition: Diabetes | Dosage: 850 | Age Group: 18 | Side Effects: diarrhea | Improvement Score: 5.5
+P0702,50,Female,Depression,escitalopram,250,11,nausea,8.0,Drug: escitalopram | Condition: Depression | Dosage: 250 | Age Group: 50 | Side Effects: nausea | Improvement Score: 8.0
+P0703,57,Female,Pain Relief,ibuprofen,850,18,heartburn,8.3,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 57 | Side Effects: heartburn | Improvement Score: 8.3
+P0704,27,Female,Diabetes,glipizide,250,13,nausea,6.6,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 27 | Side Effects: nausea | Improvement Score: 6.6
+P0705,60,Male,Hypertension,amlodipine,250,59,dizziness,7.1,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 60 | Side Effects: dizziness | Improvement Score: 7.1
+P0706,61,Female,Diabetes,insulin glargine,250,23,weight gain,4.8,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 61 | Side Effects: weight gain | Improvement Score: 4.8
+P0707,46,Female,Infection,azithromycin,250,51,abdominal pain,6.6,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 46 | Side Effects: abdominal pain | Improvement Score: 6.6
+P0708,30,Female,Hypertension,amlodipine,250,56,dizziness,6.9,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 30 | Side Effects: dizziness | Improvement Score: 6.9
+P0709,29,Male,Depression,bupropion,250,18,dry mouth,10.0,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 29 | Side Effects: dry mouth | Improvement Score: 10.0
+P0710,48,Male,Pain Relief,ibuprofen,50,42,nausea,5.3,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 48 | Side Effects: nausea | Improvement Score: 5.3
+P0711,63,Male,Diabetes,metformin,850,57,stomach upset,9.2,Drug: metformin | Condition: Diabetes | Dosage: 850 | Age Group: 63 | Side Effects: stomach upset | Improvement Score: 9.2
+P0712,19,Female,Hypertension,amlodipine,500,40,swelling,8.5,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 19 | Side Effects: swelling | Improvement Score: 8.5
+P0713,78,Female,Infection,amoxicillin,100,44,allergy,7.4,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 78 | Side Effects: allergy | Improvement Score: 7.4
+P0714,68,Female,Hypertension,losartan,500,21,headache,9.6,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 68 | Side Effects: headache | Improvement Score: 9.6
+P0715,67,Male,Infection,ciprofloxacin,50,34,nausea,7.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 67 | Side Effects: nausea | Improvement Score: 7.6
+P0716,52,Male,Depression,escitalopram,50,13,sleep issues,7.6,Drug: escitalopram | Condition: Depression | Dosage: 50 | Age Group: 52 | Side Effects: sleep issues | Improvement Score: 7.6
+P0717,40,Female,Pain Relief,ibuprofen,50,37,stomach pain,6.9,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 40 | Side Effects: stomach pain | Improvement Score: 6.9
+P0718,34,Male,Depression,escitalopram,500,56,sleep issues,8.8,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 34 | Side Effects: sleep issues | Improvement Score: 8.8
+P0719,43,Male,Diabetes,metformin,100,29,nausea,8.6,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 43 | Side Effects: nausea | Improvement Score: 8.6
+P0720,25,Male,Hypertension,metoprolol,500,18,dizziness,6.1,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 25 | Side Effects: dizziness | Improvement Score: 6.1
+P0721,46,Male,Infection,ciprofloxacin,500,15,nausea,5.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 46 | Side Effects: nausea | Improvement Score: 5.0
+P0722,43,Female,Infection,ciprofloxacin,250,57,nausea,6.7,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 43 | Side Effects: nausea | Improvement Score: 6.7
+P0723,27,Male,Hypertension,amlodipine,100,39,dizziness,5.8,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 27 | Side Effects: dizziness | Improvement Score: 5.8
+P0724,43,Male,Hypertension,metoprolol,250,45,slow heartbeat,6.9,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 43 | Side Effects: slow heartbeat | Improvement Score: 6.9
+P0725,79,Male,Diabetes,insulin glargine,50,18,injection site pain,8.9,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 79 | Side Effects: injection site pain | Improvement Score: 8.9
+P0726,51,Male,Depression,sertraline,100,34,insomnia,6.3,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 51 | Side Effects: insomnia | Improvement Score: 6.3
+P0727,68,Female,Infection,amoxicillin,500,45,diarrhea,6.9,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 68 | Side Effects: diarrhea | Improvement Score: 6.9
+P0728,58,Female,Diabetes,insulin glargine,100,8,injection site pain,7.1,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 58 | Side Effects: injection site pain | Improvement Score: 7.1
+P0729,24,Male,Depression,escitalopram,850,8,sleep issues,8.3,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 24 | Side Effects: sleep issues | Improvement Score: 8.3
+P0730,21,Male,Diabetes,glipizide,500,32,nausea,3.6,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 21 | Side Effects: nausea | Improvement Score: 3.6
+P0731,75,Male,Infection,amoxicillin,50,12,allergy,6.1,Drug: amoxicillin | Condition: Infection | Dosage: 50 | Age Group: 75 | Side Effects: allergy | Improvement Score: 6.1
+P0732,70,Male,Hypertension,amlodipine,850,6,swelling,7.3,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 70 | Side Effects: swelling | Improvement Score: 7.3
+P0733,67,Male,Hypertension,losartan,850,45,back pain,8.8,Drug: losartan | Condition: Hypertension | Dosage: 850 | Age Group: 67 | Side Effects: back pain | Improvement Score: 8.8
+P0734,62,Male,Depression,escitalopram,500,50,nausea,6.3,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 62 | Side Effects: nausea | Improvement Score: 6.3
+P0735,28,Female,Pain Relief,ibuprofen,100,26,stomach pain,4.2,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 28 | Side Effects: stomach pain | Improvement Score: 4.2
+P0736,46,Male,Depression,bupropion,100,45,anxiety,7.9,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 46 | Side Effects: anxiety | Improvement Score: 7.9
+P0737,73,Female,Pain Relief,paracetamol,50,59,rash,6.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 73 | Side Effects: rash | Improvement Score: 6.0
+P0738,53,Female,Diabetes,glipizide,850,20,low blood sugar,5.2,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 53 | Side Effects: low blood sugar | Improvement Score: 5.2
+P0739,42,Male,Diabetes,metformin,250,33,diarrhea,6.1,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 42 | Side Effects: diarrhea | Improvement Score: 6.1
+P0740,38,Female,Infection,ciprofloxacin,500,53,joint pain,6.7,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 38 | Side Effects: joint pain | Improvement Score: 6.7
+P0741,78,Female,Pain Relief,tramadol,250,52,nausea,6.1,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 78 | Side Effects: nausea | Improvement Score: 6.1
+P0742,74,Female,Infection,amoxicillin,500,34,allergy,3.7,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 74 | Side Effects: allergy | Improvement Score: 3.7
+P0743,53,Female,Hypertension,metoprolol,50,16,slow heartbeat,8.3,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 53 | Side Effects: slow heartbeat | Improvement Score: 8.3
+P0744,27,Female,Pain Relief,ibuprofen,100,39,stomach pain,8.9,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 27 | Side Effects: stomach pain | Improvement Score: 8.9
+P0745,54,Female,Depression,bupropion,50,15,anxiety,8.0,Drug: bupropion | Condition: Depression | Dosage: 50 | Age Group: 54 | Side Effects: anxiety | Improvement Score: 8.0
+P0746,26,Male,Hypertension,losartan,500,50,headache,5.3,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 26 | Side Effects: headache | Improvement Score: 5.3
+P0747,41,Female,Hypertension,losartan,100,54,headache,6.7,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 41 | Side Effects: headache | Improvement Score: 6.7
+P0748,52,Female,Depression,bupropion,250,25,headache,7.0,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 52 | Side Effects: headache | Improvement Score: 7.0
+P0749,66,Female,Hypertension,metoprolol,850,25,dizziness,7.9,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 66 | Side Effects: dizziness | Improvement Score: 7.9
+P0750,52,Male,Pain Relief,paracetamol,50,9,liver issues,8.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 52 | Side Effects: liver issues | Improvement Score: 8.0
+P0751,65,Female,Infection,ciprofloxacin,850,52,dizziness,5.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 65 | Side Effects: dizziness | Improvement Score: 5.9
+P0752,53,Male,Hypertension,losartan,500,24,back pain,7.1,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 53 | Side Effects: back pain | Improvement Score: 7.1
+P0753,35,Female,Pain Relief,paracetamol,500,41,liver issues,7.7,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 35 | Side Effects: liver issues | Improvement Score: 7.7
+P0754,66,Male,Diabetes,insulin glargine,250,7,weight gain,9.2,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 66 | Side Effects: weight gain | Improvement Score: 9.2
+P0755,56,Male,Pain Relief,tramadol,850,48,nausea,8.1,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 56 | Side Effects: nausea | Improvement Score: 8.1
+P0756,49,Female,Infection,amoxicillin,500,37,rash,8.2,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 49 | Side Effects: rash | Improvement Score: 8.2
+P0757,41,Female,Pain Relief,paracetamol,850,57,fatigue,7.1,Drug: paracetamol | Condition: Pain Relief | Dosage: 850 | Age Group: 41 | Side Effects: fatigue | Improvement Score: 7.1
+P0758,40,Male,Depression,bupropion,500,13,headache,9.1,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 40 | Side Effects: headache | Improvement Score: 9.1
+P0759,79,Female,Infection,azithromycin,500,13,headache,7.6,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 79 | Side Effects: headache | Improvement Score: 7.6
+P0760,49,Male,Diabetes,metformin,250,8,stomach upset,5.7,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 49 | Side Effects: stomach upset | Improvement Score: 5.7
+P0761,54,Male,Depression,bupropion,100,39,headache,9.1,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 54 | Side Effects: headache | Improvement Score: 9.1
+P0762,29,Male,Pain Relief,paracetamol,250,21,rash,8.0,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 29 | Side Effects: rash | Improvement Score: 8.0
+P0763,66,Male,Infection,ciprofloxacin,850,38,nausea,6.3,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 66 | Side Effects: nausea | Improvement Score: 6.3
+P0764,72,Male,Diabetes,metformin,100,28,diarrhea,6.3,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 72 | Side Effects: diarrhea | Improvement Score: 6.3
+P0765,30,Female,Depression,bupropion,250,36,headache,7.4,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 30 | Side Effects: headache | Improvement Score: 7.4
+P0766,40,Male,Diabetes,insulin glargine,50,5,low sugar,7.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 40 | Side Effects: low sugar | Improvement Score: 7.7
+P0767,42,Male,Pain Relief,ibuprofen,100,12,heartburn,7.3,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 42 | Side Effects: heartburn | Improvement Score: 7.3
+P0768,52,Female,Diabetes,metformin,250,49,nausea,7.5,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 52 | Side Effects: nausea | Improvement Score: 7.5
+P0769,58,Male,Hypertension,metoprolol,250,27,dizziness,9.5,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 58 | Side Effects: dizziness | Improvement Score: 9.5
+P0770,47,Female,Depression,bupropion,500,51,dry mouth,8.6,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 47 | Side Effects: dry mouth | Improvement Score: 8.6
+P0771,34,Female,Diabetes,glipizide,250,44,skin rash,7.3,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 34 | Side Effects: skin rash | Improvement Score: 7.3
+P0772,66,Female,Pain Relief,tramadol,850,16,constipation,8.4,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 66 | Side Effects: constipation | Improvement Score: 8.4
+P0773,79,Male,Pain Relief,paracetamol,250,58,rash,5.5,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 79 | Side Effects: rash | Improvement Score: 5.5
+P0774,37,Male,Diabetes,glipizide,850,16,skin rash,7.6,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 37 | Side Effects: skin rash | Improvement Score: 7.6
+P0775,65,Male,Pain Relief,tramadol,850,50,nausea,9.7,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 65 | Side Effects: nausea | Improvement Score: 9.7
+P0776,42,Female,Infection,azithromycin,850,51,headache,6.7,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 42 | Side Effects: headache | Improvement Score: 6.7
+P0777,39,Male,Infection,ciprofloxacin,500,19,dizziness,5.7,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 39 | Side Effects: dizziness | Improvement Score: 5.7
+P0778,30,Female,Infection,ciprofloxacin,50,45,dizziness,6.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 30 | Side Effects: dizziness | Improvement Score: 6.0
+P0779,76,Male,Hypertension,amlodipine,50,23,dizziness,5.4,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 76 | Side Effects: dizziness | Improvement Score: 5.4
+P0780,36,Female,Diabetes,metformin,100,30,diarrhea,5.8,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 36 | Side Effects: diarrhea | Improvement Score: 5.8
+P0781,66,Male,Hypertension,amlodipine,250,56,fatigue,6.4,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 66 | Side Effects: fatigue | Improvement Score: 6.4
+P0782,53,Male,Pain Relief,tramadol,50,33,dizziness,4.9,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 53 | Side Effects: dizziness | Improvement Score: 4.9
+P0783,29,Male,Hypertension,amlodipine,100,26,swelling,7.0,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 29 | Side Effects: swelling | Improvement Score: 7.0
+P0784,78,Female,Pain Relief,ibuprofen,500,44,heartburn,8.4,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 78 | Side Effects: heartburn | Improvement Score: 8.4
+P0785,58,Female,Pain Relief,ibuprofen,850,25,stomach pain,5.6,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 58 | Side Effects: stomach pain | Improvement Score: 5.6
+P0786,36,Male,Depression,bupropion,500,55,headache,9.3,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 36 | Side Effects: headache | Improvement Score: 9.3
+P0787,29,Male,Infection,ciprofloxacin,50,42,joint pain,7.8,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 29 | Side Effects: joint pain | Improvement Score: 7.8
+P0788,26,Female,Pain Relief,ibuprofen,100,24,nausea,8.5,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 26 | Side Effects: nausea | Improvement Score: 8.5
+P0789,24,Female,Depression,bupropion,500,33,dry mouth,6.0,Drug: bupropion | Condition: Depression | Dosage: 500 | Age Group: 24 | Side Effects: dry mouth | Improvement Score: 6.0
+P0790,45,Female,Infection,amoxicillin,250,55,diarrhea,8.3,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 45 | Side Effects: diarrhea | Improvement Score: 8.3
+P0791,31,Male,Pain Relief,ibuprofen,250,8,heartburn,5.4,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 31 | Side Effects: heartburn | Improvement Score: 5.4
+P0792,48,Female,Pain Relief,ibuprofen,850,59,heartburn,8.3,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 48 | Side Effects: heartburn | Improvement Score: 8.3
+P0793,69,Male,Hypertension,amlodipine,250,11,swelling,7.3,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 69 | Side Effects: swelling | Improvement Score: 7.3
+P0794,36,Female,Hypertension,metoprolol,50,32,slow heartbeat,7.8,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 36 | Side Effects: slow heartbeat | Improvement Score: 7.8
+P0795,75,Male,Infection,ciprofloxacin,50,32,dizziness,5.2,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 75 | Side Effects: dizziness | Improvement Score: 5.2
+P0796,64,Female,Pain Relief,ibuprofen,250,8,nausea,5.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 64 | Side Effects: nausea | Improvement Score: 5.7
+P0797,33,Female,Diabetes,glipizide,250,26,nausea,7.9,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 33 | Side Effects: nausea | Improvement Score: 7.9
+P0798,70,Female,Hypertension,metoprolol,50,16,slow heartbeat,5.6,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 70 | Side Effects: slow heartbeat | Improvement Score: 5.6
+P0799,22,Female,Infection,azithromycin,50,49,headache,7.7,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 22 | Side Effects: headache | Improvement Score: 7.7
+P0800,52,Female,Pain Relief,paracetamol,500,7,liver issues,4.9,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 52 | Side Effects: liver issues | Improvement Score: 4.9
+P0801,29,Male,Pain Relief,ibuprofen,500,26,nausea,8.3,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 29 | Side Effects: nausea | Improvement Score: 8.3
+P0802,42,Female,Diabetes,insulin glargine,500,48,weight gain,5.2,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 42 | Side Effects: weight gain | Improvement Score: 5.2
+P0803,69,Female,Infection,azithromycin,850,6,nausea,7.8,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 69 | Side Effects: nausea | Improvement Score: 7.8
+P0804,76,Female,Pain Relief,tramadol,850,28,dizziness,7.9,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 76 | Side Effects: dizziness | Improvement Score: 7.9
+P0805,38,Male,Hypertension,amlodipine,50,38,dizziness,6.0,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 38 | Side Effects: dizziness | Improvement Score: 6.0
+P0806,53,Female,Diabetes,glipizide,100,31,nausea,7.9,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 53 | Side Effects: nausea | Improvement Score: 7.9
+P0807,70,Male,Infection,ciprofloxacin,500,59,nausea,7.4,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 70 | Side Effects: nausea | Improvement Score: 7.4
+P0808,40,Female,Diabetes,metformin,250,45,nausea,6.2,Drug: metformin | Condition: Diabetes | Dosage: 250 | Age Group: 40 | Side Effects: nausea | Improvement Score: 6.2
+P0809,33,Female,Hypertension,amlodipine,250,5,fatigue,5.5,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 33 | Side Effects: fatigue | Improvement Score: 5.5
+P0810,74,Male,Infection,amoxicillin,850,12,allergy,4.1,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 74 | Side Effects: allergy | Improvement Score: 4.1
+P0811,56,Female,Diabetes,glipizide,100,27,nausea,7.5,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 56 | Side Effects: nausea | Improvement Score: 7.5
+P0812,62,Male,Depression,escitalopram,100,42,sweating,4.7,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 62 | Side Effects: sweating | Improvement Score: 4.7
+P0813,70,Male,Hypertension,metoprolol,50,10,dizziness,7.1,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 70 | Side Effects: dizziness | Improvement Score: 7.1
+P0814,59,Female,Hypertension,metoprolol,250,26,slow heartbeat,6.6,Drug: metoprolol | Condition: Hypertension | Dosage: 250 | Age Group: 59 | Side Effects: slow heartbeat | Improvement Score: 6.6
+P0815,75,Male,Hypertension,amlodipine,850,29,fatigue,8.0,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 75 | Side Effects: fatigue | Improvement Score: 8.0
+P0816,56,Female,Depression,escitalopram,50,22,nausea,6.5,Drug: escitalopram | Condition: Depression | Dosage: 50 | Age Group: 56 | Side Effects: nausea | Improvement Score: 6.5
+P0817,31,Female,Depression,escitalopram,100,21,sweating,6.5,Drug: escitalopram | Condition: Depression | Dosage: 100 | Age Group: 31 | Side Effects: sweating | Improvement Score: 6.5
+P0818,48,Male,Pain Relief,tramadol,850,16,dizziness,8.1,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 48 | Side Effects: dizziness | Improvement Score: 8.1
+P0819,75,Male,Diabetes,metformin,500,10,diarrhea,7.5,Drug: metformin | Condition: Diabetes | Dosage: 500 | Age Group: 75 | Side Effects: diarrhea | Improvement Score: 7.5
+P0820,22,Male,Pain Relief,ibuprofen,100,30,heartburn,7.5,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 22 | Side Effects: heartburn | Improvement Score: 7.5
+P0821,52,Male,Diabetes,glipizide,850,31,low blood sugar,7.7,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 52 | Side Effects: low blood sugar | Improvement Score: 7.7
+P0822,40,Female,Depression,sertraline,250,12,drowsiness,4.7,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 40 | Side Effects: drowsiness | Improvement Score: 4.7
+P0823,46,Female,Depression,bupropion,100,23,dry mouth,8.1,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 46 | Side Effects: dry mouth | Improvement Score: 8.1
+P0824,60,Male,Pain Relief,ibuprofen,500,46,heartburn,7.9,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 60 | Side Effects: heartburn | Improvement Score: 7.9
+P0825,28,Female,Infection,ciprofloxacin,100,5,nausea,5.5,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 28 | Side Effects: nausea | Improvement Score: 5.5
+P0826,35,Female,Pain Relief,paracetamol,250,33,fatigue,6.6,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 35 | Side Effects: fatigue | Improvement Score: 6.6
+P0827,64,Female,Diabetes,glipizide,250,49,skin rash,6.9,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 64 | Side Effects: skin rash | Improvement Score: 6.9
+P0828,29,Female,Pain Relief,paracetamol,250,53,fatigue,6.8,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 29 | Side Effects: fatigue | Improvement Score: 6.8
+P0829,26,Male,Hypertension,losartan,50,39,back pain,7.5,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 26 | Side Effects: back pain | Improvement Score: 7.5
+P0830,27,Male,Diabetes,metformin,100,44,diarrhea,9.1,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 27 | Side Effects: diarrhea | Improvement Score: 9.1
+P0831,75,Female,Diabetes,metformin,100,18,nausea,8.6,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 75 | Side Effects: nausea | Improvement Score: 8.6
+P0832,61,Male,Infection,azithromycin,50,39,headache,5.0,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 61 | Side Effects: headache | Improvement Score: 5.0
+P0833,34,Male,Depression,bupropion,250,52,headache,7.9,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 34 | Side Effects: headache | Improvement Score: 7.9
+P0834,78,Male,Diabetes,insulin glargine,500,49,low sugar,9.0,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 78 | Side Effects: low sugar | Improvement Score: 9.0
+P0835,55,Female,Depression,sertraline,850,24,insomnia,7.6,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 55 | Side Effects: insomnia | Improvement Score: 7.6
+P0836,24,Female,Pain Relief,tramadol,100,53,nausea,8.6,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 24 | Side Effects: nausea | Improvement Score: 8.6
+P0837,63,Female,Hypertension,amlodipine,50,17,dizziness,10.0,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 63 | Side Effects: dizziness | Improvement Score: 10.0
+P0838,30,Male,Infection,amoxicillin,50,42,allergy,8.5,Drug: amoxicillin | Condition: Infection | Dosage: 50 | Age Group: 30 | Side Effects: allergy | Improvement Score: 8.5
+P0839,57,Female,Depression,sertraline,50,53,insomnia,7.4,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 57 | Side Effects: insomnia | Improvement Score: 7.4
+P0840,59,Female,Diabetes,insulin glargine,50,50,weight gain,8.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 59 | Side Effects: weight gain | Improvement Score: 8.6
+P0841,26,Male,Depression,sertraline,500,53,drowsiness,7.2,Drug: sertraline | Condition: Depression | Dosage: 500 | Age Group: 26 | Side Effects: drowsiness | Improvement Score: 7.2
+P0842,67,Female,Diabetes,glipizide,500,12,low blood sugar,7.0,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 67 | Side Effects: low blood sugar | Improvement Score: 7.0
+P0843,44,Female,Depression,escitalopram,500,47,nausea,6.5,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 44 | Side Effects: nausea | Improvement Score: 6.5
+P0844,75,Male,Diabetes,glipizide,100,24,nausea,9.3,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 75 | Side Effects: nausea | Improvement Score: 9.3
+P0845,19,Male,Pain Relief,ibuprofen,250,37,stomach pain,5.8,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 19 | Side Effects: stomach pain | Improvement Score: 5.8
+P0846,22,Male,Diabetes,insulin glargine,500,30,low sugar,9.3,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 22 | Side Effects: low sugar | Improvement Score: 9.3
+P0847,46,Female,Diabetes,insulin glargine,50,43,injection site pain,7.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 46 | Side Effects: injection site pain | Improvement Score: 7.7
+P0848,54,Female,Hypertension,losartan,50,25,cough,4.9,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 54 | Side Effects: cough | Improvement Score: 4.9
+P0849,55,Female,Diabetes,insulin glargine,50,57,low sugar,7.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 50 | Age Group: 55 | Side Effects: low sugar | Improvement Score: 7.6
+P0850,36,Male,Hypertension,amlodipine,250,53,fatigue,3.8,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 36 | Side Effects: fatigue | Improvement Score: 3.8
+P0851,25,Male,Infection,azithromycin,50,46,nausea,7.9,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 25 | Side Effects: nausea | Improvement Score: 7.9
+P0852,65,Female,Hypertension,amlodipine,500,47,dizziness,8.3,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 65 | Side Effects: dizziness | Improvement Score: 8.3
+P0853,62,Female,Pain Relief,tramadol,850,58,constipation,6.1,Drug: tramadol | Condition: Pain Relief | Dosage: 850 | Age Group: 62 | Side Effects: constipation | Improvement Score: 6.1
+P0854,18,Male,Hypertension,metoprolol,850,45,dizziness,7.2,Drug: metoprolol | Condition: Hypertension | Dosage: 850 | Age Group: 18 | Side Effects: dizziness | Improvement Score: 7.2
+P0855,39,Male,Infection,amoxicillin,850,13,diarrhea,9.9,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 39 | Side Effects: diarrhea | Improvement Score: 9.9
+P0856,69,Male,Pain Relief,tramadol,500,28,dizziness,6.2,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 69 | Side Effects: dizziness | Improvement Score: 6.2
+P0857,34,Male,Depression,bupropion,850,41,anxiety,5.4,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 34 | Side Effects: anxiety | Improvement Score: 5.4
+P0858,24,Female,Depression,sertraline,500,53,drowsiness,9.2,Drug: sertraline | Condition: Depression | Dosage: 500 | Age Group: 24 | Side Effects: drowsiness | Improvement Score: 9.2
+P0859,42,Male,Hypertension,metoprolol,50,45,tiredness,9.9,Drug: metoprolol | Condition: Hypertension | Dosage: 50 | Age Group: 42 | Side Effects: tiredness | Improvement Score: 9.9
+P0860,62,Female,Hypertension,losartan,100,21,cough,7.0,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 62 | Side Effects: cough | Improvement Score: 7.0
+P0861,21,Female,Infection,amoxicillin,500,28,rash,8.5,Drug: amoxicillin | Condition: Infection | Dosage: 500 | Age Group: 21 | Side Effects: rash | Improvement Score: 8.5
+P0862,53,Female,Infection,ciprofloxacin,100,25,nausea,9.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 53 | Side Effects: nausea | Improvement Score: 9.0
+P0863,23,Male,Diabetes,metformin,50,55,nausea,5.9,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 23 | Side Effects: nausea | Improvement Score: 5.9
+P0864,77,Male,Infection,azithromycin,50,43,headache,6.3,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 77 | Side Effects: headache | Improvement Score: 6.3
+P0865,48,Male,Diabetes,glipizide,500,59,low blood sugar,8.8,Drug: glipizide | Condition: Diabetes | Dosage: 500 | Age Group: 48 | Side Effects: low blood sugar | Improvement Score: 8.8
+P0866,36,Male,Pain Relief,tramadol,250,45,nausea,9.5,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 36 | Side Effects: nausea | Improvement Score: 9.5
+P0867,78,Female,Hypertension,amlodipine,850,43,fatigue,7.8,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 78 | Side Effects: fatigue | Improvement Score: 7.8
+P0868,61,Male,Pain Relief,paracetamol,250,17,rash,5.7,Drug: paracetamol | Condition: Pain Relief | Dosage: 250 | Age Group: 61 | Side Effects: rash | Improvement Score: 5.7
+P0869,71,Male,Infection,azithromycin,850,15,headache,10.0,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 71 | Side Effects: headache | Improvement Score: 10.0
+P0870,56,Female,Pain Relief,ibuprofen,50,50,stomach pain,6.2,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 56 | Side Effects: stomach pain | Improvement Score: 6.2
+P0871,44,Male,Pain Relief,paracetamol,850,23,liver issues,6.5,Drug: paracetamol | Condition: Pain Relief | Dosage: 850 | Age Group: 44 | Side Effects: liver issues | Improvement Score: 6.5
+P0872,27,Female,Pain Relief,paracetamol,850,15,rash,7.5,Drug: paracetamol | Condition: Pain Relief | Dosage: 850 | Age Group: 27 | Side Effects: rash | Improvement Score: 7.5
+P0873,43,Female,Infection,azithromycin,100,17,nausea,9.3,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 43 | Side Effects: nausea | Improvement Score: 9.3
+P0874,36,Female,Pain Relief,tramadol,250,50,nausea,8.3,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 36 | Side Effects: nausea | Improvement Score: 8.3
+P0875,56,Female,Diabetes,metformin,850,49,nausea,7.6,Drug: metformin | Condition: Diabetes | Dosage: 850 | Age Group: 56 | Side Effects: nausea | Improvement Score: 7.6
+P0876,79,Female,Infection,ciprofloxacin,50,5,joint pain,7.7,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 79 | Side Effects: joint pain | Improvement Score: 7.7
+P0877,20,Female,Pain Relief,ibuprofen,100,44,nausea,7.1,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 20 | Side Effects: nausea | Improvement Score: 7.1
+P0878,62,Female,Infection,azithromycin,250,48,headache,7.8,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 62 | Side Effects: headache | Improvement Score: 7.8
+P0879,30,Female,Depression,sertraline,250,23,insomnia,3.2,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 30 | Side Effects: insomnia | Improvement Score: 3.2
+P0880,67,Male,Diabetes,insulin glargine,850,16,weight gain,6.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 67 | Side Effects: weight gain | Improvement Score: 6.6
+P0881,45,Male,Pain Relief,tramadol,250,12,nausea,7.4,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 45 | Side Effects: nausea | Improvement Score: 7.4
+P0882,79,Male,Depression,bupropion,850,12,headache,5.3,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 79 | Side Effects: headache | Improvement Score: 5.3
+P0883,75,Male,Depression,escitalopram,500,57,sleep issues,7.6,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 75 | Side Effects: sleep issues | Improvement Score: 7.6
+P0884,37,Female,Infection,amoxicillin,250,49,diarrhea,6.7,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 37 | Side Effects: diarrhea | Improvement Score: 6.7
+P0885,45,Male,Depression,bupropion,100,16,anxiety,9.6,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 45 | Side Effects: anxiety | Improvement Score: 9.6
+P0886,25,Female,Diabetes,glipizide,100,52,low blood sugar,9.4,Drug: glipizide | Condition: Diabetes | Dosage: 100 | Age Group: 25 | Side Effects: low blood sugar | Improvement Score: 9.4
+P0887,78,Male,Diabetes,glipizide,50,37,low blood sugar,6.3,Drug: glipizide | Condition: Diabetes | Dosage: 50 | Age Group: 78 | Side Effects: low blood sugar | Improvement Score: 6.3
+P0888,58,Male,Hypertension,amlodipine,250,49,fatigue,6.8,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 58 | Side Effects: fatigue | Improvement Score: 6.8
+P0889,56,Male,Diabetes,metformin,100,30,nausea,6.9,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 56 | Side Effects: nausea | Improvement Score: 6.9
+P0890,18,Female,Depression,sertraline,100,43,drowsiness,6.3,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 18 | Side Effects: drowsiness | Improvement Score: 6.3
+P0891,20,Male,Diabetes,glipizide,250,32,nausea,7.3,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 20 | Side Effects: nausea | Improvement Score: 7.3
+P0892,30,Female,Infection,ciprofloxacin,500,9,dizziness,5.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 30 | Side Effects: dizziness | Improvement Score: 5.9
+P0893,45,Female,Hypertension,amlodipine,500,12,fatigue,5.3,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 45 | Side Effects: fatigue | Improvement Score: 5.3
+P0894,79,Male,Depression,sertraline,50,29,dry mouth,7.9,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 79 | Side Effects: dry mouth | Improvement Score: 7.9
+P0895,74,Male,Hypertension,amlodipine,50,31,fatigue,7.9,Drug: amlodipine | Condition: Hypertension | Dosage: 50 | Age Group: 74 | Side Effects: fatigue | Improvement Score: 7.9
+P0896,77,Male,Depression,bupropion,250,50,dry mouth,5.8,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 77 | Side Effects: dry mouth | Improvement Score: 5.8
+P0897,66,Female,Infection,azithromycin,250,27,nausea,8.3,Drug: azithromycin | Condition: Infection | Dosage: 250 | Age Group: 66 | Side Effects: nausea | Improvement Score: 8.3
+P0898,42,Male,Hypertension,amlodipine,100,34,dizziness,6.1,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 42 | Side Effects: dizziness | Improvement Score: 6.1
+P0899,73,Female,Pain Relief,ibuprofen,850,49,stomach pain,7.4,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 73 | Side Effects: stomach pain | Improvement Score: 7.4
+P0900,50,Female,Depression,sertraline,250,51,drowsiness,8.2,Drug: sertraline | Condition: Depression | Dosage: 250 | Age Group: 50 | Side Effects: drowsiness | Improvement Score: 8.2
+P0901,55,Male,Pain Relief,tramadol,500,27,dizziness,6.9,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 55 | Side Effects: dizziness | Improvement Score: 6.9
+P0902,70,Male,Hypertension,amlodipine,850,53,dizziness,7.7,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 70 | Side Effects: dizziness | Improvement Score: 7.7
+P0903,23,Female,Pain Relief,tramadol,100,51,nausea,6.2,Drug: tramadol | Condition: Pain Relief | Dosage: 100 | Age Group: 23 | Side Effects: nausea | Improvement Score: 6.2
+P0904,75,Female,Pain Relief,ibuprofen,250,24,heartburn,6.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 250 | Age Group: 75 | Side Effects: heartburn | Improvement Score: 6.7
+P0905,61,Female,Hypertension,amlodipine,250,22,dizziness,6.7,Drug: amlodipine | Condition: Hypertension | Dosage: 250 | Age Group: 61 | Side Effects: dizziness | Improvement Score: 6.7
+P0906,62,Male,Infection,azithromycin,850,22,headache,5.9,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 62 | Side Effects: headache | Improvement Score: 5.9
+P0907,49,Female,Pain Relief,ibuprofen,100,6,stomach pain,6.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 49 | Side Effects: stomach pain | Improvement Score: 6.7
+P0908,62,Male,Pain Relief,tramadol,250,8,dizziness,4.7,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 62 | Side Effects: dizziness | Improvement Score: 4.7
+P0909,78,Female,Infection,azithromycin,850,34,abdominal pain,6.3,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 78 | Side Effects: abdominal pain | Improvement Score: 6.3
+P0910,64,Female,Pain Relief,paracetamol,100,37,fatigue,6.6,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 64 | Side Effects: fatigue | Improvement Score: 6.6
+P0911,38,Male,Pain Relief,paracetamol,50,40,rash,6.6,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 38 | Side Effects: rash | Improvement Score: 6.6
+P0912,33,Female,Pain Relief,tramadol,50,22,nausea,6.6,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 33 | Side Effects: nausea | Improvement Score: 6.6
+P0913,71,Male,Diabetes,metformin,100,41,stomach upset,6.9,Drug: metformin | Condition: Diabetes | Dosage: 100 | Age Group: 71 | Side Effects: stomach upset | Improvement Score: 6.9
+P0914,38,Male,Infection,amoxicillin,850,23,rash,7.7,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 38 | Side Effects: rash | Improvement Score: 7.7
+P0915,28,Female,Pain Relief,tramadol,250,51,constipation,8.3,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 28 | Side Effects: constipation | Improvement Score: 8.3
+P0916,77,Male,Infection,ciprofloxacin,500,32,joint pain,6.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 77 | Side Effects: joint pain | Improvement Score: 6.0
+P0917,54,Male,Depression,bupropion,850,44,dry mouth,5.2,Drug: bupropion | Condition: Depression | Dosage: 850 | Age Group: 54 | Side Effects: dry mouth | Improvement Score: 5.2
+P0918,53,Female,Depression,escitalopram,850,24,nausea,5.4,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 53 | Side Effects: nausea | Improvement Score: 5.4
+P0919,52,Male,Pain Relief,paracetamol,500,53,rash,6.3,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 52 | Side Effects: rash | Improvement Score: 6.3
+P0920,36,Male,Infection,ciprofloxacin,250,37,joint pain,6.5,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 36 | Side Effects: joint pain | Improvement Score: 6.5
+P0921,37,Male,Infection,ciprofloxacin,500,16,dizziness,5.8,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 37 | Side Effects: dizziness | Improvement Score: 5.8
+P0922,74,Female,Infection,azithromycin,500,55,nausea,5.1,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 74 | Side Effects: nausea | Improvement Score: 5.1
+P0923,35,Male,Diabetes,insulin glargine,500,19,low sugar,6.3,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 35 | Side Effects: low sugar | Improvement Score: 6.3
+P0924,64,Female,Depression,bupropion,100,45,headache,7.3,Drug: bupropion | Condition: Depression | Dosage: 100 | Age Group: 64 | Side Effects: headache | Improvement Score: 7.3
+P0925,58,Female,Infection,ciprofloxacin,250,43,joint pain,7.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 58 | Side Effects: joint pain | Improvement Score: 7.9
+P0926,66,Male,Infection,azithromycin,500,6,headache,6.2,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 66 | Side Effects: headache | Improvement Score: 6.2
+P0927,31,Male,Diabetes,insulin glargine,250,33,injection site pain,6.4,Drug: insulin glargine | Condition: Diabetes | Dosage: 250 | Age Group: 31 | Side Effects: injection site pain | Improvement Score: 6.4
+P0928,32,Male,Diabetes,insulin glargine,100,45,weight gain,5.6,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 32 | Side Effects: weight gain | Improvement Score: 5.6
+P0929,48,Female,Infection,ciprofloxacin,850,14,dizziness,7.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 48 | Side Effects: dizziness | Improvement Score: 7.0
+P0930,18,Male,Hypertension,amlodipine,850,6,fatigue,5.7,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 18 | Side Effects: fatigue | Improvement Score: 5.7
+P0931,70,Male,Infection,ciprofloxacin,850,55,nausea,7.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 70 | Side Effects: nausea | Improvement Score: 7.9
+P0932,71,Male,Infection,ciprofloxacin,50,15,dizziness,4.3,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 71 | Side Effects: dizziness | Improvement Score: 4.3
+P0933,71,Male,Diabetes,insulin glargine,500,17,low sugar,6.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 500 | Age Group: 71 | Side Effects: low sugar | Improvement Score: 6.5
+P0934,20,Male,Diabetes,insulin glargine,850,14,weight gain,7.5,Drug: insulin glargine | Condition: Diabetes | Dosage: 850 | Age Group: 20 | Side Effects: weight gain | Improvement Score: 7.5
+P0935,33,Female,Infection,ciprofloxacin,50,18,dizziness,7.3,Drug: ciprofloxacin | Condition: Infection | Dosage: 50 | Age Group: 33 | Side Effects: dizziness | Improvement Score: 7.3
+P0936,40,Female,Infection,ciprofloxacin,250,22,joint pain,10.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 40 | Side Effects: joint pain | Improvement Score: 10.0
+P0937,74,Male,Infection,azithromycin,850,55,nausea,7.5,Drug: azithromycin | Condition: Infection | Dosage: 850 | Age Group: 74 | Side Effects: nausea | Improvement Score: 7.5
+P0938,28,Male,Diabetes,glipizide,850,58,nausea,5.5,Drug: glipizide | Condition: Diabetes | Dosage: 850 | Age Group: 28 | Side Effects: nausea | Improvement Score: 5.5
+P0939,29,Male,Infection,amoxicillin,850,13,rash,6.9,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 29 | Side Effects: rash | Improvement Score: 6.9
+P0940,27,Male,Infection,ciprofloxacin,100,43,dizziness,4.3,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 27 | Side Effects: dizziness | Improvement Score: 4.3
+P0941,49,Female,Pain Relief,tramadol,250,32,nausea,6.9,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 49 | Side Effects: nausea | Improvement Score: 6.9
+P0942,33,Male,Hypertension,amlodipine,100,7,fatigue,5.8,Drug: amlodipine | Condition: Hypertension | Dosage: 100 | Age Group: 33 | Side Effects: fatigue | Improvement Score: 5.8
+P0943,25,Female,Depression,escitalopram,500,24,nausea,8.4,Drug: escitalopram | Condition: Depression | Dosage: 500 | Age Group: 25 | Side Effects: nausea | Improvement Score: 8.4
+P0944,55,Female,Hypertension,losartan,250,10,back pain,6.2,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 55 | Side Effects: back pain | Improvement Score: 6.2
+P0945,29,Male,Pain Relief,ibuprofen,500,31,heartburn,6.8,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 29 | Side Effects: heartburn | Improvement Score: 6.8
+P0946,41,Female,Depression,escitalopram,850,57,sweating,6.0,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 41 | Side Effects: sweating | Improvement Score: 6.0
+P0947,45,Female,Infection,ciprofloxacin,850,6,joint pain,9.6,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 45 | Side Effects: joint pain | Improvement Score: 9.6
+P0948,70,Female,Pain Relief,ibuprofen,850,33,stomach pain,6.5,Drug: ibuprofen | Condition: Pain Relief | Dosage: 850 | Age Group: 70 | Side Effects: stomach pain | Improvement Score: 6.5
+P0949,25,Female,Infection,azithromycin,100,42,headache,9.7,Drug: azithromycin | Condition: Infection | Dosage: 100 | Age Group: 25 | Side Effects: headache | Improvement Score: 9.7
+P0950,75,Male,Diabetes,insulin glargine,100,7,low sugar,8.2,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 75 | Side Effects: low sugar | Improvement Score: 8.2
+P0951,45,Male,Pain Relief,ibuprofen,500,20,heartburn,7.7,Drug: ibuprofen | Condition: Pain Relief | Dosage: 500 | Age Group: 45 | Side Effects: heartburn | Improvement Score: 7.7
+P0952,53,Female,Diabetes,metformin,500,34,diarrhea,7.6,Drug: metformin | Condition: Diabetes | Dosage: 500 | Age Group: 53 | Side Effects: diarrhea | Improvement Score: 7.6
+P0953,43,Male,Pain Relief,paracetamol,100,44,rash,7.6,Drug: paracetamol | Condition: Pain Relief | Dosage: 100 | Age Group: 43 | Side Effects: rash | Improvement Score: 7.6
+P0954,25,Male,Pain Relief,ibuprofen,50,6,nausea,4.1,Drug: ibuprofen | Condition: Pain Relief | Dosage: 50 | Age Group: 25 | Side Effects: nausea | Improvement Score: 4.1
+P0955,75,Male,Diabetes,glipizide,250,21,skin rash,6.6,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 75 | Side Effects: skin rash | Improvement Score: 6.6
+P0956,77,Male,Depression,bupropion,250,45,anxiety,8.3,Drug: bupropion | Condition: Depression | Dosage: 250 | Age Group: 77 | Side Effects: anxiety | Improvement Score: 8.3
+P0957,67,Male,Hypertension,metoprolol,500,16,slow heartbeat,6.9,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 67 | Side Effects: slow heartbeat | Improvement Score: 6.9
+P0958,45,Female,Infection,ciprofloxacin,850,39,nausea,4.9,Drug: ciprofloxacin | Condition: Infection | Dosage: 850 | Age Group: 45 | Side Effects: nausea | Improvement Score: 4.9
+P0959,45,Male,Pain Relief,paracetamol,50,47,fatigue,6.9,Drug: paracetamol | Condition: Pain Relief | Dosage: 50 | Age Group: 45 | Side Effects: fatigue | Improvement Score: 6.9
+P0960,54,Male,Infection,amoxicillin,50,5,rash,9.6,Drug: amoxicillin | Condition: Infection | Dosage: 50 | Age Group: 54 | Side Effects: rash | Improvement Score: 9.6
+P0961,58,Male,Diabetes,insulin glargine,100,59,low sugar,8.9,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 58 | Side Effects: low sugar | Improvement Score: 8.9
+P0962,53,Male,Infection,azithromycin,500,49,nausea,6.9,Drug: azithromycin | Condition: Infection | Dosage: 500 | Age Group: 53 | Side Effects: nausea | Improvement Score: 6.9
+P0963,44,Female,Diabetes,glipizide,250,19,nausea,8.4,Drug: glipizide | Condition: Diabetes | Dosage: 250 | Age Group: 44 | Side Effects: nausea | Improvement Score: 8.4
+P0964,71,Female,Infection,amoxicillin,250,30,diarrhea,6.5,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 71 | Side Effects: diarrhea | Improvement Score: 6.5
+P0965,34,Female,Hypertension,metoprolol,100,41,tiredness,4.4,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 34 | Side Effects: tiredness | Improvement Score: 4.4
+P0966,26,Female,Hypertension,losartan,50,25,back pain,5.6,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 26 | Side Effects: back pain | Improvement Score: 5.6
+P0967,50,Male,Hypertension,amlodipine,500,53,fatigue,9.3,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 50 | Side Effects: fatigue | Improvement Score: 9.3
+P0968,70,Female,Hypertension,amlodipine,850,35,dizziness,6.6,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 70 | Side Effects: dizziness | Improvement Score: 6.6
+P0969,37,Male,Hypertension,amlodipine,500,29,dizziness,6.6,Drug: amlodipine | Condition: Hypertension | Dosage: 500 | Age Group: 37 | Side Effects: dizziness | Improvement Score: 6.6
+P0970,30,Male,Hypertension,losartan,500,27,back pain,6.6,Drug: losartan | Condition: Hypertension | Dosage: 500 | Age Group: 30 | Side Effects: back pain | Improvement Score: 6.6
+P0971,45,Male,Diabetes,metformin,50,28,stomach upset,9.9,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 45 | Side Effects: stomach upset | Improvement Score: 9.9
+P0972,65,Male,Pain Relief,tramadol,250,42,dizziness,9.4,Drug: tramadol | Condition: Pain Relief | Dosage: 250 | Age Group: 65 | Side Effects: dizziness | Improvement Score: 9.4
+P0973,46,Male,Infection,ciprofloxacin,100,32,dizziness,10.0,Drug: ciprofloxacin | Condition: Infection | Dosage: 100 | Age Group: 46 | Side Effects: dizziness | Improvement Score: 10.0
+P0974,30,Female,Hypertension,amlodipine,850,25,swelling,6.8,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 30 | Side Effects: swelling | Improvement Score: 6.8
+P0975,63,Female,Diabetes,metformin,50,58,nausea,7.4,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 63 | Side Effects: nausea | Improvement Score: 7.4
+P0976,52,Female,Diabetes,metformin,50,47,stomach upset,4.7,Drug: metformin | Condition: Diabetes | Dosage: 50 | Age Group: 52 | Side Effects: stomach upset | Improvement Score: 4.7
+P0977,78,Female,Diabetes,metformin,500,22,nausea,9.2,Drug: metformin | Condition: Diabetes | Dosage: 500 | Age Group: 78 | Side Effects: nausea | Improvement Score: 9.2
+P0978,23,Male,Pain Relief,tramadol,50,40,constipation,5.2,Drug: tramadol | Condition: Pain Relief | Dosage: 50 | Age Group: 23 | Side Effects: constipation | Improvement Score: 5.2
+P0979,35,Female,Infection,amoxicillin,100,39,allergy,7.3,Drug: amoxicillin | Condition: Infection | Dosage: 100 | Age Group: 35 | Side Effects: allergy | Improvement Score: 7.3
+P0980,68,Male,Pain Relief,ibuprofen,100,49,heartburn,5.4,Drug: ibuprofen | Condition: Pain Relief | Dosage: 100 | Age Group: 68 | Side Effects: heartburn | Improvement Score: 5.4
+P0981,22,Female,Depression,sertraline,50,59,insomnia,6.1,Drug: sertraline | Condition: Depression | Dosage: 50 | Age Group: 22 | Side Effects: insomnia | Improvement Score: 6.1
+P0982,64,Male,Diabetes,insulin glargine,100,13,weight gain,5.7,Drug: insulin glargine | Condition: Diabetes | Dosage: 100 | Age Group: 64 | Side Effects: weight gain | Improvement Score: 5.7
+P0983,42,Male,Depression,escitalopram,850,57,sleep issues,6.1,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 42 | Side Effects: sleep issues | Improvement Score: 6.1
+P0984,19,Female,Hypertension,metoprolol,100,42,slow heartbeat,6.2,Drug: metoprolol | Condition: Hypertension | Dosage: 100 | Age Group: 19 | Side Effects: slow heartbeat | Improvement Score: 6.2
+P0985,27,Male,Hypertension,losartan,50,34,back pain,6.2,Drug: losartan | Condition: Hypertension | Dosage: 50 | Age Group: 27 | Side Effects: back pain | Improvement Score: 6.2
+P0986,73,Male,Pain Relief,paracetamol,500,48,fatigue,8.3,Drug: paracetamol | Condition: Pain Relief | Dosage: 500 | Age Group: 73 | Side Effects: fatigue | Improvement Score: 8.3
+P0987,47,Female,Infection,amoxicillin,850,38,allergy,5.3,Drug: amoxicillin | Condition: Infection | Dosage: 850 | Age Group: 47 | Side Effects: allergy | Improvement Score: 5.3
+P0988,67,Male,Depression,sertraline,100,36,insomnia,7.3,Drug: sertraline | Condition: Depression | Dosage: 100 | Age Group: 67 | Side Effects: insomnia | Improvement Score: 7.3
+P0989,76,Female,Infection,ciprofloxacin,500,7,dizziness,8.8,Drug: ciprofloxacin | Condition: Infection | Dosage: 500 | Age Group: 76 | Side Effects: dizziness | Improvement Score: 8.8
+P0990,62,Female,Pain Relief,tramadol,500,7,constipation,6.2,Drug: tramadol | Condition: Pain Relief | Dosage: 500 | Age Group: 62 | Side Effects: constipation | Improvement Score: 6.2
+P0991,22,Female,Hypertension,amlodipine,850,32,fatigue,5.9,Drug: amlodipine | Condition: Hypertension | Dosage: 850 | Age Group: 22 | Side Effects: fatigue | Improvement Score: 5.9
+P0992,72,Male,Infection,amoxicillin,250,48,rash,6.7,Drug: amoxicillin | Condition: Infection | Dosage: 250 | Age Group: 72 | Side Effects: rash | Improvement Score: 6.7
+P0993,73,Male,Infection,ciprofloxacin,250,19,nausea,8.8,Drug: ciprofloxacin | Condition: Infection | Dosage: 250 | Age Group: 73 | Side Effects: nausea | Improvement Score: 8.8
+P0994,50,Male,Hypertension,losartan,250,45,headache,7.3,Drug: losartan | Condition: Hypertension | Dosage: 250 | Age Group: 50 | Side Effects: headache | Improvement Score: 7.3
+P0995,71,Female,Depression,sertraline,500,27,drowsiness,6.2,Drug: sertraline | Condition: Depression | Dosage: 500 | Age Group: 71 | Side Effects: drowsiness | Improvement Score: 6.2
+P0996,18,Male,Hypertension,losartan,100,44,headache,7.7,Drug: losartan | Condition: Hypertension | Dosage: 100 | Age Group: 18 | Side Effects: headache | Improvement Score: 7.7
+P0997,35,Female,Infection,azithromycin,50,15,nausea,5.3,Drug: azithromycin | Condition: Infection | Dosage: 50 | Age Group: 35 | Side Effects: nausea | Improvement Score: 5.3
+P0998,49,Female,Depression,sertraline,850,52,dry mouth,8.0,Drug: sertraline | Condition: Depression | Dosage: 850 | Age Group: 49 | Side Effects: dry mouth | Improvement Score: 8.0
+P0999,64,Male,Depression,escitalopram,850,36,nausea,7.6,Drug: escitalopram | Condition: Depression | Dosage: 850 | Age Group: 64 | Side Effects: nausea | Improvement Score: 7.6
+P1000,66,Female,Hypertension,metoprolol,500,58,tiredness,6.5,Drug: metoprolol | Condition: Hypertension | Dosage: 500 | Age Group: 66 | Side Effects: tiredness | Improvement Score: 6.5

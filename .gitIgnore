@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+
+# FastAPI
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Notebook
+notebook/

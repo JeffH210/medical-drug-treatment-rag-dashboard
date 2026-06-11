@@ -1,0 +1,10 @@
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+groq
+fastapi
+uvicorn
+python-dotenv
+sqlalchemy
+psycopg2-binary
